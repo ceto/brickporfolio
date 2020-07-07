@@ -23,9 +23,11 @@
     </script> -->
   </head>
 <body>
+<h1 class="weare"><span data-aos="fade-up" data-aos-delay="200">We are<br>Communicating<br>Architecture</span></h1>
+<div class="notpace">
 <header class="banner" data-sticky-container>
     <div class="banner__top" adata-sticky adata-sticky-on="small" adata-options="marginTop:0;">
-        <div class="grid-container" data-aos="fade-down" data-aos-delay="1200">
+        <div class="grid-container" data-aos="fade-down" adata-aos-delay="200">
             <div class="grid-x grid-margin-x align-middle">
                 <div class="auto cell">
                     <div class="banner__branding">
@@ -72,7 +74,7 @@
                 <figure data-title="Sunset boulevard" data-description="Helen &amp; Hard">
                     <a href="#"><img width="2560" height="1812" src="assets/img/slides/sample_01.jpg" alt=""></a>
                     <figcaption>
-                        Diam eget risus varius blandit sit amet non magna
+                        Ha nem infinite akkor a kettesről kell indítani<em>hogy bal oldalon legyen valami belógó </em>
                     </figcaption>
                 </figure>
             </div>
@@ -93,6 +95,9 @@
                 </aside>
                 <figure data-title="Filmesgyakornok program" data-description="Filmalap">
                     <a href="#"><img width="2560" height="1707" src="assets/img/slides/sample_02.jpg" alt=""></a>
+                    <figcaption>
+                        Varius blandit sit amet<em>Risus varius blandit sit amet non magna</em>
+                    </figcaption>
                 </figure>
             </div>
         </div>
@@ -270,13 +275,23 @@
                 </figure>
             </div>
         </div>
-        <div>
+        <!-- <div>
             <div class="citem">
                 <figure data-title="The End" data-description="Click to see full portfolio">
                     <a href="https://brickvisual.com/portfolio/"><img width="1000" height="1000" src="https://placehold.it/1000x1000/3b3b3b/?text=?" alt=""></a>
                     <figcaption>
                         The End<em>Click to see full portfolio</em>
                     </figcaption>
+                </figure>
+            </div>
+        </div> -->
+        <div>
+            <div class="citem">
+                <figure data-title="The End" data-description="Click to see full portfolio">
+                    <a href="https://brickvisual.com/portfolio/"><img width="1000" height="1000" src="https://placehold.it/1000/ffffff/0a0a0a/?text=%2b" alt=""></a>
+                    <!-- <figcaption>
+                        The End<em>Click to see full portfolio</em>
+                    </figcaption> -->
                 </figure>
             </div>
         </div>
@@ -355,7 +370,7 @@
                 <figure data-title="Sunset boulevard" data-description="Helen &amp; Hard">
                     <a href="#"><img width="2560" height="1812" src="assets/img/slides/sample_01.jpg" alt=""></a>
                     <figcaption>
-                        Diam eget risus varius blandit sit amet non magna
+                        Ha nem infinite akkor a kettesről kell indítani<em>hogy bal oldalon legyen valami belógó </em>
                     </figcaption>
                 </figure>
                 <aside class="ipanel">
@@ -376,6 +391,9 @@
             <div class="slidecard">
                 <figure data-title="Filmesgyakornok program" data-description="Filmalap">
                     <a href="#"><img width="2560" height="1707" src="assets/img/slides/sample_02.jpg" alt=""></a>
+                    <figcaption>
+                        Varius blandit sit amet<em>Risus varius blandit sit amet non magna</em>
+                    </figcaption>
                 </figure>
                 <aside class="ipanel">
                     <header class="ipanel__header">
@@ -566,14 +584,7 @@
             </div>
         </li>
         <li>
-            <div class="slidecard">
-                <figure data-title="The End" data-description="Click to see full portfolio">
-                    <a href="https://brickvisual.com/portfolio/"><img width="1000" height="1000" src="assets/img/slides/" alt=""></a>
-                    <figcaption>
-                        The End - Click to see full portfolio
-                    </figcaption>
-                </figure>
-            </div>
+            <a class="mobileportfoliojump" href="https://brickvisual.com/portfolio/">+</a>
         </li>
     </ul>
 </div>
@@ -622,7 +633,27 @@
         </div>
     </div>
 </footer>
-<div style="height: 0; width: 0; position: absolute; visibility: hidden; overflow: hidden;">
+</div>
+<aside class="reveal mobilemodal" id="mobilemodal" data-reveal data-animation-in="scale-in-down fast" data-animation-out="scale-out-up fast">
+    <div class="mobilemodal__inner">
+        <nav class="mobilemodal__mainnav">
+            <a class="mobilemodal__brand" href="https://brickvisual.com/">
+                <img src="assets/img/brick.svg" alt="Brick Visual">
+            </a>
+            <ul class="menu accordion-menu menu--mobilemain" data-accordion-menu><li class="menu-item menu-about"><a href="https://brickvisual.com/about/">About</a></li>
+                <li class="menu-item menu-works"><a href="https://brickvisual.com/portfolio/">Works</a></li>
+                <li class="menu-item menu-services"><a href="https://brickvisual.com/services/">Services</a></li>
+                <li class="menu-item menu-newsroom"><a href="https://brickvisual.com/newsroom/">Newsroom</a></li>
+                <li class="menu-item menu-academy"><a href="https://brickvisual.com/academy/">Academy</a></li>
+                <li class="menu-item menu-contact"><a href="https://brickvisual.com/contact/">Contact</a></li>
+                <li class="menu-item menu-career"><a href="https://brickvisual.com/career/">Career</a></li>
+            </ul>        
+        </nav>
+    </div>
+    <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</aside><div style="height: 0; width: 0; position: absolute; visibility: hidden; overflow: hidden;">
   <!-- inject:svg --><svg xmlns="http://www.w3.org/2000/svg">
     <symbol id="icon-behance" viewBox="0 0 25 15">
       <title>behance</title>
