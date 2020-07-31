@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 24 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>youtube</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-1" transform="translate(-12.000000, -78.000000)" fill="#1E1E1E">
-            <path d="M21.5132483,90.1618106 L21.5132483,82.8391722 L27.8459274,86.5009828 L21.5132483,90.1618106 Z M31.9018646,78 L16.0961727,78 C13.8370952,78 12,79.840733 12,82.1040583 L12,90.8969245 C12,93.159267 13.8370952,95 16.0961727,95 L31.9018646,95 C34.1619235,95 36,93.159267 36,90.8969245 L36,82.1040583 C36,79.840733 34.1619235,78 31.9018646,78 Z" id="youtube"></path>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Youtube" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M10,2.3C0.172,2.3,0,3.174,0,10s0.172,7.7,10,7.7s10-0.874,10-7.7S19.828,2.3,10,2.3z M13.205,10.334
+	l-4.49,2.096C8.322,12.612,8,12.408,8,11.974V8.026C8,7.593,8.322,7.388,8.715,7.57l4.49,2.096
+	C13.598,9.85,13.598,10.15,13.205,10.334z"/>
 </svg>
