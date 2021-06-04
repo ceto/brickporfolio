@@ -1,0 +1,30 @@
+.brand {
+	@include clearfix();
+	@include breakpoint(xlarge) {
+		//font-size: .875rem;
+		//margin: 1em 0 .875em;
+	}
+
+	font-size: 1rem;
+
+	display: block;
+
+	margin: .875em 0 .875em;
+}
+.brand__logo {
+	@include breakpoint(medium) {
+		display: none;
+	}
+
+    display: none;
+
+	width: 3.25em;
+
+}
+.brand__fulllogo {
+
+
+	display: block;
+
+    width: 16em;
+}

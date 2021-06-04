@@ -1,0 +1,100 @@
+.citem {
+    display: flex;
+    flex-wrap: nowrap;
+    // position: relative;
+    
+    img, video {
+        // height: 42vw;
+        height: calc(98vh - 8.5rem);
+        max-height: 48vw;
+        max-width: none;
+        width: auto;
+    }
+
+    figure {
+        position: relative;
+        transition: all .4s cubic-bezier(.06,.84,.19,.9) 0s;
+        transform: translate3d(0, 0, 0);
+        a {
+            outline: none;
+        }
+    }
+
+    &.is-open .ipanel + figure{
+        margin-left: 28vw;
+    }
+
+    figcaption {
+        position: absolute;
+        pointer-events: none;
+        // background-color: rgba(#fff,.25);
+        left:0;
+        top:0;
+        width:100%;
+        height: 100%;
+        padding:5% 15% 25%;
+        color: #fff;
+        text-align: center;
+        font-size: calc(1rem + 2vw);
+        line-height: 1;
+        text-shadow: 0 0 2rem rgba(#000,.5);
+        font-weight: $fw-bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: all .5s ease .5s;
+        opacity: 0;
+        overflow: hidden;
+        em {
+
+            font-style: italic;
+            font-weight: $fw-normal;
+            display: block;
+            font-size: 80%;
+            margin-top:.125em;
+        }
+
+        .slick-current &{
+            opacity: 1;
+        }
+    }
+
+    &.is-open figcaption {
+        opacity: 0;
+        // top:100%;
+    }
+}
+
+
+.desktopportfoliojump {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1;
+    font-size: calc(.75rem + .5vw);
+    color: inherit;
+    // height: 42vw;
+    height: calc(98vh - 8.5rem);
+    max-height: 48vw;
+    width:17rem;
+    // background-color: red;
+    color:inherit;
+    &:hover, &:focus {
+        // background-color: rgba(#000,.025);
+        color:inherit;
+        color: $primary-color;
+        // text-decoration: underline;
+    }
+}
+
+// .slick-slide.slick-current .citem figure a {
+//     cursor: crosshair;
+// }
+
+// .slick-slide figure a {
+//     cursor: pointer;
+// }
+

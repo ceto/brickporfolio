@@ -1,0 +1,112 @@
+.carouselwrap {
+    position: relative;
+}
+.carouselstatus {
+    padding:0 10%;
+    height: calc(5rem + .5vw);
+    // background-color: red;
+    // height: calc(30rem - 21vw);
+    // background-color: red;
+    margin:0;
+    font-size: calc(.75rem + .25vw);
+    line-height: 1.2;
+    text-shadow: 0 0 2rem rgba(#fff,.5);
+    font-weight: $fw-bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all .4s linear;
+    opacity: 1;
+    em {
+
+        font-style: italic;
+        font-family: $serif-font-family;
+        font-weight: $fw-regular;
+        display: block;
+        margin-top:.333em;
+        font-size: 93.75%;
+        &:after {
+            content:' —'
+        }
+        &:before {
+            content:'— '
+        }
+    }
+
+    &.willchange {
+        opacity: 0;
+        // cursor: pointer;
+        // transform: translateY(.125em);
+    }
+    cursor:pointer;
+    
+}
+
+.homecarousel {
+    position: relative;
+    // transition: transform .4s ease-in;
+    // transform: translate3d(0, 0, 0);
+    // overflow: visible;
+
+    &.slick-slider {
+        user-select: initial;
+    }
+
+    .slick-list {
+        overflow: visible;
+    }
+
+    .slick-track {
+        transition: transform 300ms cubic-bezier(.06,.84,.19,.9) 0s;
+    }
+    .slick-slide {
+        margin: 0 .333vw;
+        line-height: 0;
+    }
+}
+
+.navcarousel {
+
+    position: fixed;
+    bottom:3rem;
+    left:0;
+    width:100%;
+
+    .slick-slide {
+        margin: 0 .125vw;
+        outline:none;
+        line-height: 0;
+    }
+    figure {
+    }
+    a {
+        outline: none;
+    }
+    img {
+        height: calc(8vw - 3.75vh);
+        min-height: 5rem;
+        max-width: none;
+        width: auto;
+        opacity: .5;
+        display: block;
+        
+    }
+    .slick-current img {
+        opacity: 1;
+    }
+    // display: none;
+    @media (min-aspect-ratio: 72/48) {
+        & {
+            display: none !important;
+        }
+    }
+
+    @media (min-aspect-ratio: 72/52) and (max-width: 1200px){
+        & {
+           display: none !important;
+
+        }
+    }
+
+}

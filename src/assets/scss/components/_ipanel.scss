@@ -1,0 +1,101 @@
+.ipanel {
+    padding:3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+
+
+    .citem & {
+        width: 28vw;
+        position: absolute;
+        height: 100%;
+        opacity: 0;
+        transition: all .4s ease-in;
+    }
+
+    .citem.is-open & {
+        opacity: 1;
+
+    }
+    .slidecard & {
+        padding:0 3vw;
+        max-width: 27rem;
+        margin:0 auto;
+        overflow: hidden;
+        height: 0;
+        min-height: 0;
+        opacity: 0;
+        transition: all .4s ease-in;
+    }
+    .slidecard.is-open & {
+        opacity: 1;
+        // height: 0;
+        min-height: 22em;
+        padding-top:3em;
+        padding-bottom:4em;
+    }
+
+    @include breakpoint(tablet) {
+        font-size: .875rem;
+    }
+
+    @include breakpoint(xlarge) {
+        font-size: 1rem;
+    }
+
+}
+.ipanel__header {
+
+
+    h3 {
+        font-weight: $fw-bold;
+        font-size: 1.4666em;
+        margin:0 0;
+        line-height: 1.125;
+    }
+    p {
+        color: $darker-gray;
+        font-size: 1em;
+        letter-spacing: 0.05em;
+    }
+}
+
+.ipanel__details {
+    position: relative;
+    h4 {
+        margin:0;
+        color: $darker-gray;
+        font-size: 1em;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-weight: $fw-light;
+
+    }
+    p {
+        font-size: .875em;
+        
+    }
+    > *:last-child {
+        margin-bottom: 0;
+    }
+
+    a {
+        color:inherit;
+        &:hover, &:focus {
+            color:$primary-color;
+        }
+    }
+
+}
+.ipanel__details__client {
+    margin:0;
+    // .citem & {
+        max-width: calc(100% - 7em);
+    // }
+}
+
+p.ipanel__moreworks {
+    float:right;
+    margin:0;
+}

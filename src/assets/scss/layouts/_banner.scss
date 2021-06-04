@@ -1,0 +1,69 @@
+
+.banner {
+    //background-color: rgba(#1b1b1b, .5);
+    //background-color: $body-background;
+    z-index: 5;
+    position: relative;
+    .page-has-glass-banner & {
+        position: absolute;
+        left:0;
+        top:0;
+        width:100%;
+    }
+
+    .page-has-light-banner & {
+        background-image: linear-gradient(-180deg, rgba(#000,.25) 0 , rgba(#000,0) 100%);
+        color:#fff;
+        text-shadow: 0 0 1.5rem rgba(#000,.25);
+    }
+    .no-banner & {
+        display:none;
+    }
+
+    .single-portfolio & {
+        z-index: 1501;
+    }
+}
+
+.banner__top {
+    border-bottom:1px solid transparent;
+    transition: top .4s ease-in;
+}
+
+.banner__top.is-stuck{
+    background-color: $body-background;
+    border-color: lighten(#000, 95%);
+    color: $body-font-color;
+    text-shadow: none;
+
+
+    // .page-has-light-banner & {
+    //     background-color: $body-font-color;
+    //     border-color:transparent;
+    // }
+    &.headroom--unpinned {
+        top:-60px !important;
+    }
+    &.headroom--pinned {
+        top:0 !important;
+    }
+}
+
+.menutoggler {
+    @include hamburger($body-font-color, $primary-color, 26px, 18px, 2px, 4);
+    margin: 1.125rem 0 0 0;
+    outline: none;
+
+    .page-has-light-banner & {
+		filter: invert(1) hue-rotate(180deg) contrast(3);
+    }
+    .page-has-light-banner .banner__top.is-stuck & {
+		filter: none;
+    }
+}
+
+
+.banner__subscribe {
+    min-width: 11em;
+    margin: .75rem 0 0 0;
+}

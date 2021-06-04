@@ -1,0 +1,204 @@
+.banner__nav {
+    margin: 0.75em 0 0.75em;
+}
+.menu {
+    //font-family: $header-font-family;
+}
+
+.sub-menu {
+    @extend .menu;
+}
+
+.dropdown.menu--main {
+    // text-transform: uppercase;
+    > li {
+        &:first-child {
+            > a {
+                padding-left: 0;
+            }
+        }
+
+        &:last-child {
+            > a {
+                padding-right: 0;
+            }
+        }
+        &.is-dropdown-submenu-parent > a:after,
+        &.is-dropdown-submenu-parent > a:after {
+            right: 0.4em;
+
+            margin-top: 0.125em;
+        }
+    }
+    a {
+        // @include breakpoint("xlarge") {
+        // 	padding: 1em .875em 1em .875em;
+        // }
+        position: relative;
+        font-size: 0.875rem;
+
+        padding: 0.25em 0.875em 0.25em;
+        //background-color: red;
+        color: inherit;
+        &:hover {
+            color: $primary-color;
+        }
+        &:focus {
+            color: inherit;
+        }
+        &:focus:after {
+            border-color: currentColor;
+        }
+        // &:after {
+        //     position: absolute;
+        //     bottom:25%;
+        //     top:25%;
+        //     left:.333em;
+        //     right:.333em;
+        //     content:'';
+        //     border:1px solid transparent;
+        //     display: block;
+        //     opacity:.5;
+        // }
+    }
+
+    .is-active {
+        > a {
+            //background-color: transparent;
+            //color: $primary-color;
+            font-weight: $global-weight-medium;
+            // &:after {
+            //     border-color: currentColor;
+            // }
+            //text-decoration: underline;
+        }
+    }
+
+    .is-dropdown-submenu {
+        top: 140% !important;
+        left: 0rem !important;
+
+        min-width: 12em;
+        padding: 1.5em 0 2em;
+
+        border: none;
+        background-color: rgba(#000, 0.95);
+        box-shadow: 0 0.25rem 1rem 0 rgba(#000, 0.5);
+
+        a {
+            font-size: 0.875em;
+
+            padding: 0.666em 1rem 0.75em;
+            //font-weight: $global-weight-normal;
+
+            color: $white;
+            //font-family: $body-font-family;
+            &:hover,
+            &:focus {
+                color: #fff;
+                background-color: $primary-color;
+            }
+        }
+
+        &:before {
+            font-size: 0;
+            line-height: 0;
+
+            position: absolute;
+            top: -0.666rem;
+            left: 1.125rem;
+
+            display: block;
+
+            width: 0;
+            height: 0;
+
+            content: "";
+
+            border-right: 0.666rem solid transparent; /* right arrow slant */
+            border-bottom: 0.666rem solid rgba(#000, 0.95); /* bottom, add background color here */
+            border-left: 0.666rem solid transparent; /* left arrow slant */
+        }
+    }
+}
+
+.menu--mobilemain {
+    font-weight: $global-weight-medium;
+
+    a {
+        font-size: 1.25rem;
+
+        padding: 0.5em 0;
+
+        color: inherit;
+
+        text-transforrm: capitalize;
+    }
+
+    .is-active {
+        > a {
+            color: $primary-color;
+            background-color: transparent;
+            //text-decoration: underline;
+        }
+    }
+
+    .sub-menu {
+        padding-bottom: 0.75rem;
+        a {
+            font-size: 1.125rem;
+
+            padding: 0.5em 0;
+        }
+    }
+
+    &.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a:after {
+        border-color: $alert-color transparent transparent;
+        //right:0;
+        //border: 12px inset;
+    }
+}
+
+.menu--local {
+    @include breakpoint("medium") {
+        font-size: 0.875rem;
+    }
+
+    font-size: 0.75rem;
+    // font-weight: $global-weight-medium;
+    // -webkit-font-smoothing: auto;
+    // -moz-osx-font-smoothing: auto;
+
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+
+    //background-color: $white;
+
+    .is-stuck & {
+        //border-top: 1px solid lighten(#000, 92%);
+        //box-shadow: 0 0 6rem 0 rgba(#000,.125);
+    }
+    > li {
+    }
+
+    a {
+        padding-right: 1.25vw;
+        padding-left: 1.25vw;
+        //font-size: .875rem;
+
+        color: inherit;
+
+        &.is-active {
+            color: $primary-color;
+            font-weight: $global-weight-medium;
+        }
+    }
+    .is-active > a {
+        color: $primary-color;
+        font-weight: $global-weight-medium;
+    }
+    .tax-project-type & > li:first-child > a {
+        color: inherit;
+        font-weight: inherit;
+    }
+}

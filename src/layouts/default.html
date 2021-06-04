@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brick Visual - Communicating Architecture</title>
+    <link rel="preload" href="{{root}}assets/js/loader.js" as="script">
+    <link rel="preload" href="{{root}}assets/js/app.js" as="script">
+    <link rel="preload" href="{{root}}assets/css/app.css" as="style">
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qlw0hcu.css" />
+    <link rel="icon" type="image/png" href="{{ root }}assets/img/favicon.png" />
+    <meta name="theme-color" content="#25A7E0" />
+    <meta name="description" content="Brick Visual is a high-end architectural visualization company, delivering engaging architectural visualization still images, movies and AR/VR solutions." />
+	<meta name="robots" content="index, follow" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Brick Visual - Communicating Architecture" />
+	<meta property="og:description" content="Brick Visual is a high-end architectural visualization company, delivering engaging architectural visualization still images, movies and AR/VR solutions." />
+	<meta property="og:url" content="https://brickvisual.com/" />
+    <meta property="og:site_name" content="Brick Visual" />
+    <meta property="og:image" content="https://brickvisual.com/assets/img/slides/01.jpg" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-37753223-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-37753223-4");
+    </script>
+    <script src="{{root}}assets/js/loader.js"></script>
+    {{#each slides}}{{#if preload}}
+    <link rel="preload" href="{{root}}assets/img/slides/{{ img }}" as="image">
+    {{/if}}{{/each}}
+  </head>
+<body>
+    
+<h1 class="weare"><span data-aos-delay="200" data-aos-duration="400" data-aos="fade-up">We are<br>Communicating<br>Architecture</span></h1>
+<!-- <div class="notpace"> -->
+{{> siteheader }}
+{{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+{{> body}}
+{{> sitefooter }}
+<!-- </div> -->
+{{> mobilemodal }}
+{{> icons }}
+<script src="{{root}}assets/js/app.js"></script>
+</body>
+</html>
