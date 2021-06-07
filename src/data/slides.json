@@ -1,500 +1,246 @@
 [
-    {
-        "title": "Anthony Timberlands Center",
-        "client": "WT/GO Architecture",
-        "date": "2020",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a risus quis tortor dictum tempus. Nulla viverra faucibus risus eget dapibus.",
-        "img": "03.jpg",
-        "img_width": "1831",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "1"
-    },
-    {
-        "title": "Lagmansgården School",
-        "client": "Anttinen Oiva Architects",
-        "date": "2020",
-        "info": "Anttinen Oiva Architects’ competition winning proposal represents a restrained and timeless, high-quality architecture that is organically tied to its place. Our architectural illustrations evoke feelings of the inviting warmth of the indoors in the middle of the magical nordic woods.",
-        "img": "02.jpg",
-        "img_width": "1240",
-        "img_height": "1240",
-        "figcaption": "",
-        "subcaption": "",
-        "url": "#",
-        "id": "2"
-    },
-    {
-        "title": "Nordic Museum Of Photographic Arts Seoul",
-        "client": "Nordic Arkitekter",
-        "date": "2019",
-        "info": "Imagine a building without a definitive shape, that’s whole existence is only created by its interaction with the light, depending on the time of the day. Nordic Arkitekter did exactly that and designed this eye catching museum of photographic art for the Korean capital.",
-        "img": "nordic.jpg",
-        "img_width": "1920",
-        "img_height": "1031",
-        "video": "nordic.mp4",
-        "figcaption": "",
-        "subcaption": "",
-        "url": "#",
-        "id": "3"
-    },
-    {
-        "title": "European Medicines Agency",
-        "client": "BIG in cooperation with Coldefy & Associés Architectes Urbaniste",
-        "date": "2019",
-        "info": "In the very heart of this campus project in Lille, France stands a soothing garden and the whole concept was built around this green oasis. We choose to show this environmentally conscious building with an emphasis on its closeness to nature.",
-        "img": "05.jpg",
-        "img_width": "2204",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "4"
-    },
-    {
-        "title": "Anonymous Hotel Project",
-        "client": "Singer",
-        "date": "2018",
-        "info": "Architectural visualization has the power to show a building without using overly dramatic tools. Sometimes subtlety and a light-hearted approach are what a design and the building’s future use requires, as in this case. The romantic image was created for the Hungarian studio, Singer.",
-        "img": "07.jpg",
-        "img_width": "930",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "5"
-    },
-    {
-        "title": "550 West Randolph",
-        "client": "Gensler",
-        "date": "-",
-        "info": "Built in 1909, Gensler kept this building’s original timber post and beam craftsmanship, adding high-tech amenities to comply with the modern needs of an office space in the center of Chicago. Our visualization was based on an old photograph of the buzzing streets from the first decade of the 1900’s.",
-        "img": "08.jpg",
-        "img_width": "2204",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "6"
-    },
-    {
-        "title": "Shanghai Grand Opera House",
-        "client": "Snøhetta",
-        "date": "2019",
-        "info": "Snøhetta won the international competition to develop Shanghai’s new opera building, it’s landscape, interior, and graphic design. We illustrated their design in an evocative way to show the highly sophisticated concept behind our client’s grand project.",
-        "img": "09.jpg",
-        "img_width": "2204",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "7"
-    },
-    {
-        "title": "Trigoni, Helsinki High-Rise",
-        "client": "Lahdelma & Mahlamäki architects",
-        "date": "2018",
-        "info": "The name reflects the triangular shapes of the skyscrapers in Helsinki’s new city center, designed by Lahdelma & Mahlamäki architects. As a complex project, we created numerous architectural visualizations, angles and views, but we believe that this one captures the essence of these megaprojects.",
-        "img": "10.jpg",
-        "img_width": "1984",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "8"
-    },
-    {
-        "title": "The Beacon",
-        "client": "White Arkitekter",
-        "date": "2020",
-        "info": "White Arkitekter’s concept building, made from carbon-neutral timber, activates the surrounding streets and a newly accessible waterfront as a public destination. Our birdview visualization shows the stunning neighborhood with the lively seaside.",
-        "img": "11.jpg",
-        "img_width": "1861",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "9"
-    },
-    {
-        "title": "Dresden Residential",
-        "client": "Art-Invest",
-        "date": "2020",
-        "info": "Architectural visualizations of residential buildings have to sensitively show the future life of the neighborhood and the environment to capture the imagination of future residents. The little details and moods are key factors in creating powerful marketing tools for our clients.",
-        "img": "12.jpg",
-        "img_width": "1030",
-        "img_height": "1240",
-        "figcaption": "",
-        "subcaption": "",
-        "url": "#",
-        "id": "10"
-    },
-    {
-        "title": "Novosibirsk Study",
-        "client": "Koschany+Zimmer",
-        "date": "-",
-        "info": "In the middle of a dense forest, in a national park, next to the River Ob, KZA’s study showcases a humble design for the city of Novosibirsk in Northern Russia. The location and the trees have inspired us and if you watch carefully, you can explore the fauna of the region beside the flora.",
-        "img": "13.jpg",
-        "img_width": "2294",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "11"
-    },
-    {
-        "title": "Flekkerøy Church",
-        "client": "Link Arkitektur",
-        "date": "2016",
-        "info": "Dark and heavy nordic skies give contrast to the white, almost glowing church building on this architectural visualization we have created for Link Arkitektur. Their competition proposal was designed for the city of Kristiansand in the south of Norway.",
-        "img": "14.jpg",
-        "img_width": "1171",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "12"
-    },
-    {
-        "title": "Lacadiere Center",
-        "client": "SCDA Architects",
-        "date": "2018",
-        "info": "This high-profile interior is located in one of the 3 skyscrapers of Chengdu’s Lacardier Center, all of them designed by SCDA Architects. The centered composition highlights the contrast of the luxurious surfaces, gaining attention from the viewer.",
-        "img": "15.jpg",
-        "img_width": "2530",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "13"
-    },
-    {
-        "title": "Trigoni, Helsinki High-Rise",
-        "client": "Lahdelma & Mahlamäki architects",
-        "date": "2018",
-        "info": "The name reflects the triangular shapes of the skyscrapers in Helsinki’s new city center, designed by Lahdelma & Mahlamäki architects. As a complex project, we created numerous architectural visualizations, angles and views, but we believe that this one captures the essence of these megaprojects.",
-        "img": "16.jpg",
-        "img_width": "1240",
-        "img_height": "1240",
-        "figcaption": "",
-        "subcaption": "",
-        "url": "#",
-        "id": "14"
-    },
-    {
-        "title": "The Yellow Pubmarine",
-        "client": "Non-commissioned",
-        "date": "2019",
-        "info": "We have created a super cool bar interior for ourselves. We had so much fun visualizing an underwater joint with colleagues as cutout people, inspired and challenged by the unusual lighting of the imagined scenario.",
-        "img": "17.jpg",
-        "img_width": "1749",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "15"
-    },
-    {
-        "title": "Museum of Hungarian Architecture",
-        "client": "Középülettervező Zrt.",
-        "date": "2015",
-        "info": "This black and white interior was created for a local project. We love how the angle and the lines lead the viewer’s gaze and let them get immersed in the image. This visualization illustrates the future life inside the competition winner museum building, dedicated to the best of Hungarian architecture.",
-        "img": "18.jpg",
-        "img_width": "1771",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "16"
-    },
-    {
-        "title": "Lagmansgården School",
-        "client": "Anttinen Oiva Architects",
-        "date": "2020",
-        "info": "We choose to visualize not only the dark, nordic winter but the summer fun of the North on  Oiva Architects’ competition winning school projects. With the help of a touch of storytelling, you can “walk around” in the project and discover the wonderful relationship between the building and its amazing surroundings.",
-        "img": "19.jpg",
-        "img_width": "1421",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "17",
-        "preload": "1"
-    },
-    {
-        "title": "Itt lesz egy Zaha Video",
-        "client": "Hydrogene",
-        "date": "2020",
-        "info": "When something is as characteristic as the stairway of this hotel, a minimal, yet bold approach to illustrate the yet to be built future is a great way to create a memorable image that stands out. Gensler’s hotel design for the citizenM group will be built in sunny Menlo Park, California.",
-        "img": "zaha.jpg",
-        "video": "zaha.mp4",
-        "img_width": "1920",
-        "img_height": "1032",
-        "figcaption": "",
-        "url": "#",
-        "id": "18",
-        "preload": "1",
-        "showonmobile": "1"
-    },
-    {
-        "title": "citizenM Hotel",
-        "client": "Gensler",
-        "date": "2020",
-        "info": "When something is as characteristic as the stairway of this hotel, a minimal, yet bold approach to illustrate the yet to be built future is a great way to create a memorable image that stands out. Gensler’s hotel design for the citizenM group will be built in sunny Menlo Park, California.",
-        "img": "01.jpg",
-        "img_width": "2047",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "19",
-        "preload": "1",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Lagmansgården School",
-        "client": "Anttinen Oiva Architects",
-        "date": "2020",
-        "info": "Anttinen Oiva Architects’ competition winning proposal represents a restrained and timeless, high-quality architecture that is organically tied to its place. Our architectural illustrations evoke feelings of the inviting warmth of the indoors in the middle of the magical nordic woods.",
-        "img": "02.jpg",
-        "img_width": "1240",
-        "img_height": "1240",
-        "figcaption": "",
-        "subcaption": "",
-        "url": "#",
-        "id": "20",
-        "preload": "1",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Nordic Anthony Timberlands Center",
-        "client": "WT/GO Architecture",
-        "date": "2020",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a risus quis tortor dictum tempus. Nulla viverra faucibus risus eget dapibus.",
-        "img": "nordic.jpg",
-        "img_width": "1920",
-        "img_height": "1031",
-        "video": "nordic.mp4",
-        "figcaption": "",
-        "url": "#",
-        "id": "21",
-        "showonmobile": "1"
-    },
-    {
-        "title": "European Medicines Agency",
-        "client": "BIG in cooperation with Coldefy & Associés Architectes Urbaniste",
-        "date": "2019",
-        "info": "In the very heart of this campus project in Lille, France stands a soothing garden and the whole concept was built around this green oasis. We choose to show this environmentally conscious building with an emphasis on its closeness to nature.",
-        "img": "05.jpg",
-        "img_width": "2204",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "22",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Museum Of Photographic Arts Seoul",
-        "client": "Nordic Arkitekter",
-        "date": "2019",
-        "info": "Imagine a building without a definitive shape, that’s whole existence is only created by its interaction with the light, depending on the time of the day. Nordic Arkitekter did exactly that and designed this eye catching museum of photographic art for the Korean capital.",
-        "img": "nordic.jpg",
-        "img_width": "1920",
-        "img_height": "1031",
-        "figcaption": "",
-        "subcaption": "",
-        "url": "#",
-        "id": "23",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Citizen Anonymous Hotel Project",
-        "client": "Singer",
-        "date": "2018",
-        "info": "Architectural visualization has the power to show a building without using overly dramatic tools. Sometimes subtlety and a light-hearted approach are what a design and the building’s future use requires, as in this case. The romantic image was created for the Hungarian studio, Singer.",
-        "img": "citizen.jpg",
-        "img_width": "1616",
-        "img_height": "1920",
-        "video": "citizen.mp4",
-        "figcaption": "",
-        "url": "#",
-        "id": "24",
-        "showonmobile": "1"
-    },
-    {
-        "title": "550 West Randolph",
-        "client": "Gensler",
-        "date": "-",
-        "info": "Built in 1909, Gensler kept this building’s original timber post and beam craftsmanship, adding high-tech amenities to comply with the modern needs of an office space in the center of Chicago. Our visualization was based on an old photograph of the buzzing streets from the first decade of the 1900’s.",
-        "img": "08.jpg",
-        "img_width": "2204",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "25",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Shanghai Grand Opera House",
-        "client": "Snøhetta",
-        "date": "2019",
-        "info": "Snøhetta won the international competition to develop Shanghai’s new opera building, it’s landscape, interior, and graphic design. We illustrated their design in an evocative way to show the highly sophisticated concept behind our client’s grand project.",
-        "img": "09.jpg",
-        "img_width": "2204",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "26",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Zaha towo trigoni, Helsinki High-Rise",
-        "client": "Lahdelma & Mahlamäki architects",
-        "date": "2018",
-        "info": "The name reflects the triangular shapes of the skyscrapers in Helsinki’s new city center, designed by Lahdelma & Mahlamäki architects. As a complex project, we created numerous architectural visualizations, angles and views, but we believe that this one captures the essence of these megaprojects.",
-        "img": "zaha_2.jpg",
-        "img_width": "1920",
-        "img_height": "1032",
-        "video": "zaha_2.mp4",
-        "figcaption": "",
-        "url": "#",
-        "id": "27",
-        "showonmobile": "1"
-    },
-    {
-        "title": "The Beacon",
-        "client": "White Arkitekter",
-        "date": "2020",
-        "info": "White Arkitekter’s concept building, made from carbon-neutral timber, activates the surrounding streets and a newly accessible waterfront as a public destination. Our birdview visualization shows the stunning neighborhood with the lively seaside.",
-        "img": "11.jpg",
-        "img_width": "1861",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "28",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Dresden Residential",
-        "client": "Art-Invest",
-        "date": "2020",
-        "info": "Architectural visualizations of residential buildings have to sensitively show the future life of the neighborhood and the environment to capture the imagination of future residents. The little details and moods are key factors in creating powerful marketing tools for our clients.",
-        "img": "12.jpg",
-        "img_width": "1030",
-        "img_height": "1240",
-        "figcaption": "",
-        "subcaption": "",
-        "url": "#",
-        "id": "29",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Novosibirsk Study",
-        "client": "Koschany+Zimmer",
-        "date": "-",
-        "info": "In the middle of a dense forest, in a national park, next to the River Ob, KZA’s study showcases a humble design for the city of Novosibirsk in Northern Russia. The location and the trees have inspired us and if you watch carefully, you can explore the fauna of the region beside the flora.",
-        "img": "13.jpg",
-        "img_width": "2294",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "30",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Itt amásodik Zaha Video",
-        "client": "Hydrogene",
-        "date": "2020",
-        "info": "When something is as characteristic as the stairway of this hotel, a minimal, yet bold approach to illustrate the yet to be built future is a great way to create a memorable image that stands out. Gensler’s hotel design for the citizenM group will be built in sunny Menlo Park, California.",
-        "img": "zaha.jpg",
-        "video": "zaha.mp4",
-        "img_width": "1920",
-        "img_height": "1032",
-        "figcaption": "",
-        "url": "#",
-        "id": "31",
-        "preload": "1",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Flekkerøy Church",
-        "client": "Link Arkitektur",
-        "date": "2016",
-        "info": "Dark and heavy nordic skies give contrast to the white, almost glowing church building on this architectural visualization we have created for Link Arkitektur. Their competition proposal was designed for the city of Kristiansand in the south of Norway.",
-        "img": "14.jpg",
-        "img_width": "1171",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "32",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Lacadiere Center",
-        "client": "SCDA Architects",
-        "date": "2018",
-        "info": "This high-profile interior is located in one of the 3 skyscrapers of Chengdu’s Lacardier Center, all of them designed by SCDA Architects. The centered composition highlights the contrast of the luxurious surfaces, gaining attention from the viewer.",
-        "img": "15.jpg",
-        "img_width": "2530",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "33",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Trigoni, Helsinki High-Rise",
-        "client": "Lahdelma & Mahlamäki architects",
-        "date": "2018",
-        "info": "The name reflects the triangular shapes of the skyscrapers in Helsinki’s new city center, designed by Lahdelma & Mahlamäki architects. As a complex project, we created numerous architectural visualizations, angles and views, but we believe that this one captures the essence of these megaprojects.",
-        "img": "16.jpg",
-        "img_width": "1240",
-        "img_height": "1240",
-        "figcaption": "",
-        "subcaption": "",
-        "url": "#",
-        "id": "34",
-        "showonmobile": "1"
-    },
-    {
-        "title": "The Yellow Pubmarine",
-        "client": "Non-commissioned",
-        "date": "2019",
-        "info": "We have created a super cool bar interior for ourselves. We had so much fun visualizing an underwater joint with colleagues as cutout people, inspired and challenged by the unusual lighting of the imagined scenario.",
-        "img": "17.jpg",
-        "img_width": "1749",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "35",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Museum of Hungarian Architecture",
-        "client": "Középülettervező Zrt.",
-        "date": "2015",
-        "info": "This black and white interior was created for a local project. We love how the angle and the lines lead the viewer’s gaze and let them get immersed in the image. This visualization illustrates the future life inside the competition winner museum building, dedicated to the best of Hungarian architecture.",
-        "img": "18.jpg",
-        "img_width": "1771",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "36",
-        "showonmobile": "1"
-    },
-    {
-        "title": "Lagmansgården School",
-        "client": "Anttinen Oiva Architects",
-        "date": "2020",
-        "info": "We choose to visualize not only the dark, nordic winter but the summer fun of the North on  Oiva Architects’ competition winning school projects. With the help of a touch of storytelling, you can “walk around” in the project and discover the wonderful relationship between the building and its amazing surroundings.",
-        "img": "19.jpg",
-        "img_width": "1421",
-        "img_height": "1240",
-        "figcaption": "",
-        "url": "#",
-        "id": "37",
-        "showonmobile": "1"
-    },
-    {
-        "title": "citizenM Hotel",
-        "client": "Gensler",
-        "date": "2020",
-        "info": "When something is as characteristic as the stairway of this hotel, a minimal, yet bold approach to illustrate the yet to be built future is a great way to create a memorable image that stands out. Gensler’s hotel design for the citizenM group will be built in sunny Menlo Park, California.",
-        "img": "citizen.jpg",
-        "img_width": "1616",
-        "img_height": "1920",
-        "video": "citizen.mp4",
-        "figcaption": "",
-        "url": "#",
-        "id": "38",
-        "showonmobile": "1"
-        
-    }
+    [
+        {
+            "copy" : "https://via.placeholder.com/1200x800/ffffff", 
+            "title": "Anthony Timberlands Center",
+            "img":"03.jpg",
+            "class": "leftstretched"
+        },
+        {
+            "vimeo": "https://vimeo.com/540645744",
+            "title":"Lagmansgården School",
+            "img":"02.jpg",
+            "class": "rightstretched"
+        }
+    ],
+    [
+        {
+            "title":"Nordic Museum Of Photographic Arts Seoul",
+            "img":"nordic.jpg",
+            "video":"nordic.mp4",
+            "class": "leftstretched"
+        },
+        {
+            "copy" : "https://via.placeholder.com/1200x800/ffffff", 
+            "title":"European Medicines Agency",
+            "img":"05.jpg",
+            "class": "rightstretched"
+        }
+    ],
+    [
+        {
+            "title":"Anonymous Hotel Project",
+            "img":"07.jpg",
+            "class": "rightinner"
+        },
+        {
+            "copy" : "https://via.placeholder.com/1200x800/ffffff", 
+            "title":"550 West Randolph",
+            "img":"08.jpg",
+            "class": "leftstretched"
+        }
+    ],
+    [
+        {
+            "title":"Shanghai Grand Opera House",
+            "img":"09.jpg",
+            "class": "leftinner"
+        },
+        {
+            "vimeo": "https://vimeo.com/540645744",
+            "title":"Trigoni, Helsinki High-Rise",
+            "img":"10.jpg",
+            "class": "rightinner"
+        }
+    ],
+    [
+        {
+            "copy" : "https://via.placeholder.com/1200x800/ffffff", 
+            "title":"The Beacon",
+            "img":"11.jpg",
+            "class": "leftstretched"
+        },
+        {
+            "title":"Dresden Residential",
+            "img":"12.jpg",
+            "class": "rightinner"
+        }
+    ],
+    [
+        {
+            "title":"Novosibirsk Study",
+            "img":"13.jpg",
+            "class": "leftinner"
+        },
+        {
+            "title":"Flekkerøy Church",
+            "img":"14.jpg",
+            "class": "rightstretched"
+        }
+    ],
+    [
+        {
+            "title":"Lacadiere Center",
+            "img":"15.jpg",
+            "class": "leftstretched"
+        },
+        {
+            "title":"Trigoni, Helsinki High-Rise",
+            "img":"16.jpg",
+            "class": "rightinner"
+        }
+    ],
+    [
+        {
+            "title":"The Yellow Pubmarine",
+            "img":"17.jpg",
+            "class": "leftstretched"
+        },
+        {
+            "title":"Museum of Hungarian Architecture",
+            "img":"18.jpg",
+            "class": "rightstretched"
+        }
+    ],
+    [
+        {
+            "copy" : "https://via.placeholder.com/1200x800/ffffff", 
+            "title":"Lagmansgården School",
+            "img":"19.jpg",
+            "class": "rightinner"
+        },
+        {
+            "title":"Itt lesz egy Zaha Video",
+            "img":"zaha.jpg",
+            "video":"zaha.mp4",
+            "class":"leftstretched"
+        }
+    ],
+    [
+        {
+            "title":"citizenM Hotel",
+            "img":"01.jpg",
+            "class":"rightinner"
+        },
+        {
+            "title":"Lagmansgården School",
+            "img":"02.jpg",
+            "class":"leftstretched"
+        }
+    ],
+    [
+        {
+            "title":"Nordic Anthony Timberlands Center",
+            "img":"nordic.jpg",
+            "video":"nordic.mp4",
+            "class":"rightinner"
+        },
+        {
+            "copy" : "https://via.placeholder.com/1200x800/ffffff", 
+            "title":"European Medicines Agency",
+            "img":"05.jpg",
+            "class":"leftstretched"
+        }
+    ],
+    [
+        {
+            "copy" : "https://via.placeholder.com/1200x800/ffffff", 
+            "title":"Museum Of Photographic Arts Seoul",
+            "img":"nordic.jpg",
+            "class":"leftinner"
+        },
+        {
+            "title":"Citizen Anonymous Hotel Project",
+            "img":"citizen.jpg",
+            "video":"citizen.mp4",
+            "class":"rightstretched"
+        }
+    ],
+    [
+        {
+            "title":"550 West Randolph",
+            "img":"08.jpg",
+            "class":"rightstretched"
+        },
+        {
+            "title":"Shanghai Grand Opera House",
+            "img":"09.jpg",
+            "class":"leftstretched"
+        }
+    ],
+    [
+        {
+            "title":"Zaha towo trigoni, Helsinki High-Rise",
+            "img":"zaha_2.jpg",
+            "video":"zaha_2.mp4",
+            "class":"leftstretched"
+        },
+        {
+            "title":"The Beacon",
+            "img":"11.jpg",
+            "class":"rightinner"
+        }
+    ],
+    [
+        {
+            "title":"Dresden Residential",
+            "img":"12.jpg",
+            "class":"rightinner"
+        },
+        {
+            "title":"Novosibirsk Study",
+            "img":"13.jpg",
+            "class":"leftinner"
+        }
+    ],
+    [
+        {
+            "title":"Itt amásodik Zaha Video",
+            "img":"zaha.jpg",
+            "video":"zaha.mp4",
+            "class":"leftstretched"
+        },
+        {
+            "title":"Flekkerøy Church",
+            "img":"14.jpg",
+            "class":"rightstretched"
+        }
+    ],
+    [
+        {
+            "title":"Lacadiere Center",
+            "img":"15.jpg",
+            "class":"leftstretched"
+        },
+        {
+            "title":"Trigoni, Helsinki High-Rise",
+            "img":"16.jpg",
+            "class":"rightinner"
+        }
+    ],
+    [
+        {
+            "title":"The Yellow Pubmarine",
+            "img":"17.jpg",
+            "class":"rightstretched"
+        },
+        {
+            "title":"Museum of Hungarian Architecture",
+            "img":"18.jpg",
+            "class":"leftinner"
+        }
+    ],
+    [
+        {
+            "title":"Lagmansgården School",
+            "img":"19.jpg",
+            "class":"leftinner"
+        },
+        {
+            "title":"citizenM Hotel",
+            "img":"citizen.jpg",
+            "video":"citizen.mp4",
+            "class":"rightinner"
+        }
+    ]
 ]

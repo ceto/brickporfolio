@@ -128,7 +128,7 @@ $homecarousel
     .slick({
         arrows: false,
         infinite: false,
-        initialSlide: 17,
+        initialSlide: 0,
         centerMode: true,
         centerPadding: 0,
         slidesToShow: 1,

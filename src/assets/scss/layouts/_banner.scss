@@ -67,3 +67,18 @@
     min-width: 11em;
     margin: .75rem 0 0 0;
 }
+
+
+.banner__title {
+    line-height: 1;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: $global-weight-bold;
+    letter-spacing: .125em;
+    margin:0;
+    padding: 0;
+    span {
+        font-weight: $global-weight-normal;
+
+    }
+}

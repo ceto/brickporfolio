@@ -33,14 +33,18 @@
     grid-template-rows: #{$mirrormargin*$mirrorratio} #{100% - $mirrormargin*$mirrorratio*2} #{$mirrormargin*$mirrorratio};
 
 
-
-    img, video {
-        //position: absolute;
-        height: 100%;
-        width:100%;
-        object-fit: cover;
-        // display: none;
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left:0; top:0;
+        width:100%; height:100%;
+        // background-color: rgba($primary-color,.5);
+        background-image: linear-gradient(90deg, rgba(#000, 0) 30% , rgba(#000,.05) 45%, rgba(#000,.1) 50%, rgba(#000,.0666) 50% rgba(#000, 0.025) 55%, rgba(#000, 0) 70% );
+        pointer-events: none;
     }
+
+
     > div {
         grid-column: 1 / span 6;
         grid-row: 1 / span 3;
@@ -64,6 +68,34 @@
             grid-column: 5 / span 1;
             grid-row: 2 / span 1;
         }
+    }
+
+    a {
+        position: relative;
+        display: block;
+        height: 100%;
+        width:100%;
+        &.videolink {
+            &:after {
+                content: '';
+                display: block;
+                background-color: rgba($primary-color,.333);
+                position: absolute;
+                width:16%;
+                aspect-ratio: 1/1;
+                left:42%;
+                top:42%;
+            }
+        }
+    }
+
+
+    img, video {
+        //position: absolute;
+        height: 100%;
+        width:100%;
+        object-fit: cover;
+        // display: none;
     }
 
 
