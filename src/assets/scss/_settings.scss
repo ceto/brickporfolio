@@ -64,12 +64,14 @@
 
 // 1. Global
 // ---------
+$mirrorratio: 2.946273830155979;
+$mirrormargin: 3.529411764705882%;
 
 // 1. Global
 // ---------
 
 $global-font-size: 100%;
-$global-width: rem-calc(1440);
+$global-width: rem-calc(1609);
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: #25A7E0,
@@ -78,12 +80,12 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #FF7470,
 );
-$light-gray: #e6e6e6; $light-gray-2: #dedede; $xlight-gray: #efefef;
+$light-gray: #e6e6e6; $light-gray-2: #E0E0E0; $xlight-gray: #efefef;
 $medium-gray: #cacaca;
 $dark-gray: #3e3e3e; $darker-gray: #A0A0A0;
 $black: #0a0a0a;
 $white: #fefefe;
-$body-background: $white;
+$body-background: $light-gray-2;
 $body-font-color: $black;
 $body-font-family: 'proxima-nova', 'Proxima Nova', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $serif-font-family: 'minion-pro', 'Minion Pro', serif;
@@ -91,7 +93,7 @@ $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
 $global-position: 1rem;
-$global-weight-normal: $fw-normal; $global-weight-regular: $fw-regular; $global-weight-medium: 500;
+$global-weight-normal: $fw-regular; $global-weight-regular: $fw-regular; $global-weight-medium: $fw-medium;
 $global-weight-bold: 700;
 $global-radius: 0;
 $global-menu-padding: 0.7rem 1rem;

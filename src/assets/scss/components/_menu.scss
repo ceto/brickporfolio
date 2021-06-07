@@ -73,6 +73,15 @@
             //text-decoration: underline;
         }
     }
+    .accent {
+        > a {
+            color: $primary-color;
+            font-weight: $global-weight-medium;
+            &:hover, &:focus {
+                text-decoration: underline;
+            }
+        }
+    }
 
     .is-dropdown-submenu {
         top: 140% !important;

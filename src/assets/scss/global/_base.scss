@@ -35,15 +35,7 @@ body {
 }
 .grid-container {
     @include breakpoint(tablet) {
-        max-width: 95%;
-    }
-    @include breakpoint(large) {
-    }
-    @include breakpoint(xlarge) {
         max-width: 92%;
-    }
-    @include breakpoint(xxlarge) {
-        max-width: 90%;
     }
     @media screen and (min-width: 110em) {
         max-width: $global-width;
@@ -61,6 +53,13 @@ body {
         @include breakpoint(xxlarge) {
             max-width: $global-width;
         }
+    }
+
+    &.stretched {
+        padding-left:0;
+        padding-right:0;
+        width:100%;
+        margin: auto auto;
     }
 }
 

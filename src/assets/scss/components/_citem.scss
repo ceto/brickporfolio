@@ -1,69 +1,72 @@
-.citem {
-    display: flex;
-    flex-wrap: nowrap;
+.citemwrap {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: #{100%/$mirrorratio};
+
+   
+    // @media screen and (min-width: 110em) {
+    //     width: $global-width;
+    //     height: #{$global-width/$mirrorratio};
+    // }
+
+    // filter: drop-shadow(30px 30px 34px #4444dd);
+
+    // box-shadow: 0 0 1.5rem 0 rgba(#000, 0.1);
+
     // position: relative;
     
+
+
+ 
+}
+
+.citem {
+    position: absolute;
+    z-index: 1;
+    left:0; top:0;
+    width:100%; height:100%;
+    background-color: #fff;
+
+    display: grid;
+    grid-template-columns: $mirrormargin #{50% - $mirrormargin*2} $mirrormargin $mirrormargin #{50% - $mirrormargin*2} $mirrormargin;
+    grid-template-rows: #{$mirrormargin*$mirrorratio} #{100% - $mirrormargin*$mirrorratio*2} #{$mirrormargin*$mirrorratio};
+
+
+
     img, video {
-        // height: 42vw;
-        height: calc(98vh - 8.5rem);
-        max-height: 48vw;
-        max-width: none;
-        width: auto;
-    }
-
-    figure {
-        position: relative;
-        transition: all .4s cubic-bezier(.06,.84,.19,.9) 0s;
-        transform: translate3d(0, 0, 0);
-        a {
-            outline: none;
-        }
-    }
-
-    &.is-open .ipanel + figure{
-        margin-left: 28vw;
-    }
-
-    figcaption {
-        position: absolute;
-        pointer-events: none;
-        // background-color: rgba(#fff,.25);
-        left:0;
-        top:0;
-        width:100%;
+        //position: absolute;
         height: 100%;
-        padding:5% 15% 25%;
-        color: #fff;
-        text-align: center;
-        font-size: calc(1rem + 2vw);
-        line-height: 1;
-        text-shadow: 0 0 2rem rgba(#000,.5);
-        font-weight: $fw-bold;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        transition: all .5s ease .5s;
-        opacity: 0;
-        overflow: hidden;
-        em {
-
-            font-style: italic;
-            font-weight: $fw-normal;
-            display: block;
-            font-size: 80%;
-            margin-top:.125em;
+        width:100%;
+        object-fit: cover;
+        // display: none;
+    }
+    > div {
+        grid-column: 1 / span 6;
+        grid-row: 1 / span 3;
+        
+        &.leftstretched {
+            grid-column: 1 / span 3;
+            grid-row: 1 / span 3;
         }
-
-        .slick-current &{
-            opacity: 1;
+    
+        &.rightstretched {
+            grid-column: 4 / span 3;
+            grid-row: 1 / span 3;
+        }
+    
+        &.leftinner {
+            grid-column: 2 / span 1;
+            grid-row: 2 / span 1;
+        }
+    
+        &.rightinner {
+            grid-column: 5 / span 1;
+            grid-row: 2 / span 1;
         }
     }
 
-    &.is-open figcaption {
-        opacity: 0;
-        // top:100%;
-    }
+
 }
 
 

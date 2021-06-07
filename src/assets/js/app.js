@@ -127,15 +127,12 @@ $homecarousel
     })
     .slick({
         arrows: false,
-        // prevArrow: '<button type="button" class="slick-prev"><svg class="icon"><use xlink:href="#icon-caret-left"></use></svg></button>',
-        // nextArrow: '<button type="button" class="slick-next"><svg class="icon"><use xlink:href="#icon-caret-right"></use></svg></button>',
-        // appendArrows: '.carouselwrap',
         infinite: false,
         initialSlide: 17,
         centerMode: true,
         centerPadding: 0,
-        slidesToShow: 3,
-        variableWidth: true,
+        slidesToShow: 1,
+        variableWidth: false,
         verticalSwiping: false,
         draggable: false,
         asNavFor: '.navcarousel',
@@ -145,6 +142,8 @@ $homecarousel
         // easing: 'ease-out',
         useCSS: false,
         // useTransform: false
+        fade: true,
+        cssEase: 'linear'
 
     });
 

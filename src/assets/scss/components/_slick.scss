@@ -1,5 +1,7 @@
 .carouselwrap {
     position: relative;
+    display: flex;
+    height: calc(100vh - 12rem)
 }
 .carouselstatus {
     padding:0 10%;
@@ -45,6 +47,9 @@
 
 .homecarousel {
     position: relative;
+
+    box-shadow: 0 0 1.5rem 0 rgba(#000, 0.1);
+
     // transition: transform .4s ease-in;
     // transform: translate3d(0, 0, 0);
     // overflow: visible;
@@ -54,24 +59,29 @@
     }
 
     .slick-list {
-        overflow: visible;
+        // overflow: visible;
     }
 
     .slick-track {
         transition: transform 300ms cubic-bezier(.06,.84,.19,.9) 0s;
     }
     .slick-slide {
-        margin: 0 .333vw;
+        // margin: 0 .333vw;
         line-height: 0;
     }
 }
 
 .navcarousel {
-
+    background-color: $body-background;
     position: fixed;
-    bottom:3rem;
+    bottom: 4.666rem;
     left:0;
     width:100%;
+    padding: .25vw 0;
+
+    @include breakpoint(tablet) {
+        bottom: 4rem;
+    }
 
     .slick-slide {
         margin: 0 .125vw;
@@ -84,8 +94,8 @@
         outline: none;
     }
     img {
-        height: calc(8vw - 3.75vh);
-        min-height: 5rem;
+        height: 4rem;
+        // min-height: 5rem;
         max-width: none;
         width: auto;
         opacity: .5;
@@ -95,18 +105,4 @@
     .slick-current img {
         opacity: 1;
     }
-    // display: none;
-    @media (min-aspect-ratio: 72/48) {
-        & {
-            display: none !important;
-        }
-    }
-
-    @media (min-aspect-ratio: 72/52) and (max-width: 1200px){
-        & {
-           display: none !important;
-
-        }
-    }
-
 }
