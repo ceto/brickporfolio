@@ -1,0 +1,605 @@
+[
+    {
+        "slide": "slide_00.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_01.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_02.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_03.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_04.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left wide",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right narrow",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_05.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_06.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_07.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left wide",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right narrow",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_08.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left narrow",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right narrow",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_09.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_10.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_11.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_12.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_13.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_14.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_15.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_16.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_17.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_18.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_19.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_20.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_21.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_22.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_23.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_24.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_25.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_26.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_27.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_28.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_29.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_30.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_31.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_32.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_33.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_34.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_35.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_36.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_37.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_38.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_39.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "pos": "left",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "pos": "right",
+                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    }
+
+]
+
+

@@ -5,42 +5,21 @@
             </svg></button>
         <div class="grid-container stretched">
             <div class="homecarousel slick-slider">
-                {{#each slides}}
+                {{#each theslides}}
                 <div class="citemwrap">
                     <div class="citem">
-                        {{#each this}}
-                        <div class="{{ class }}">
-                            {{#if copy}}
-                                <a href="#">
-                                    <img src="{{ copy }}?text={{ title }}" alt="{{ title }}">
-                                </a>
-                            {{/if}}
-                            {{#unless copy}}
-                                {{#if video}}
-                                    <a href="#">
-                                        <video muted loop preload poster="{{root}}assets/img/slides/{{ img }}">
-                                            <source src="{{root}}assets/img/slides/{{ video }}" type="video/mp4">
-                                            <source src="{{root}}assets/img/slides/medium/{{ video }}" type="video/mp4" media="all and (max-width: 1024px)">
-                                        </video>
-                                    </a>
-                                {{/if}}
-                                {{#unless video}}
-                                    {{#if vimeo}}
-                                    <a class="videolink" href="{{ vimeo }}">    
-                                        <img src="{{root}}assets/img/slides/medium/{{ img }}" alt="{{ title }}"
-                                        srcset="{{root}}assets/img/slides/{{ img }} {{ img_width }}w">
-                                    </a>
-                                    {{/if}}
-                                    {{#unless vimeo}}
-                                    <a href="#">    
-                                        <img src="{{root}}assets/img/slides/medium/{{ img }}" alt="{{ title }}"
-                                        srcset="{{root}}assets/img/slides/{{ img }} {{ img_width }}w">
-                                    </a>
-                                    {{/unless}}
-                                {{/unless}}
-                            {{/unless}}
+                        <img 
+                            src="{{root}}assets/img/slides/medium{{ slide }}" alt="{{ slide }}"
+                            srcset="
+                                {{root}}assets/img/slides/{{ slide }} 3307w,
+                                {{root}}assets/img/slides/small/{{ slide }} 640w
+                            "
+                        >
+                        <div class="citem__links">
+                            {{#each targets}}
+                            <a href="{{ data }}" class="{{ pos }}"></a>
+                            {{/each}}
                         </div>
-                        {{/each}}
                     </div>
                 </div>
                 {{/each}}
@@ -61,10 +40,10 @@
     </div>
 
     <div class="navcarousel">
-        {{#each slides}}
+        {{#each theslides}}
         <div>
             <figure>
-                <img src="https://via.placeholder.com/600x203/9b9b9b/ffffff?text=thumb+0{{ @index }}">
+                <img src="{{root}}assets/img/slides/small/{{ slide }}" alt="{{ slide }}">
             </figure>
         </div>
         {{/each}}
