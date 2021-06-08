@@ -11,7 +11,7 @@
     width:100%; height:100%;
     background-color: #fff;
 
-    img, video {
+    > img, > video {
 
         height: 100%;
         width:100%;
@@ -21,7 +21,7 @@
 
 .citem__links {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     left:0; top:0;
     width:100%; height:100%;
 
@@ -60,6 +60,42 @@
     }
 }
 
+.citem__loops {
+    position: absolute;
+    z-index: 1;
+    left:0; top:0;
+    width:100%; height:100%;
+
+    display: grid;
+    grid-template-columns: $mirrormargin #{100% - $mirrormargin*2} $mirrormargin;
+    grid-template-rows: #{$mirrormargin*$mirrorratio} #{100% - $mirrormargin*$mirrorratio*2} #{$mirrormargin*$mirrorratio};
+
+    > * {
+        display: block;
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 3;
+
+        height: 100%;
+        width: auto;
+
+        // object-fit: contain;
+
+
+        &.left {
+
+        }
+
+        &.right {
+            justify-self: end;
+        }
+
+        &.hasmargin {
+            grid-column: 2 / span 1;
+            grid-row: 2 / span 1;
+        }
+    }
+
+}
 
 .desktopportfoliojump {
     display: flex;

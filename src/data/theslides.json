@@ -4,13 +4,21 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ],
+        "loops": [
+            {
+                "video": "zaha_tower.mp4",
+                "poster": "zaha_tower.jpg",
+                "pos": "right hasmargin"
+
             }
         ]
     },
@@ -19,13 +27,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -34,13 +42,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -49,13 +57,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -64,13 +72,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left wide",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left wide",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right narrow",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right narrow",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -79,13 +87,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -94,13 +102,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -109,13 +117,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left wide",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left wide",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right narrow",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right narrow",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -124,13 +132,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left narrow",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left narrow",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right narrow",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right narrow",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -139,14 +147,22 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right narrow",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
+        ],
+        "loops": [
+            {
+                "video": "citizen.mp4",
+                "poster": "citizen.jpg",
+                "pos": "right hasmargin"
+            }
+
         ]
     },
     {
@@ -154,13 +170,21 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left narrow",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right wide",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ],
+        "loops": [
+            {
+                "video": "nordic.mp4",
+                "poster": "nordic.jpg",
+                "pos": "right"
+
             }
         ]
     },
@@ -169,13 +193,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -184,13 +208,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -199,28 +223,37 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left narrow",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right wide",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ],
+        "loops": [
+            {
+                "video": "zaha.mp4",
+                "poster": "zaha.jpg",
+                "pos": "right"
+
             }
         ]
+        
     },
     {
         "slide": "slide_14.jpg",
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -229,13 +262,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -244,13 +277,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -259,13 +292,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -274,13 +307,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -289,13 +322,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -304,13 +337,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -319,13 +352,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -334,13 +367,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -349,13 +382,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -364,13 +397,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -379,13 +412,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -394,13 +427,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -409,13 +442,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -424,13 +457,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -439,13 +472,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -454,13 +487,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -469,13 +502,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -484,13 +517,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -499,13 +532,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -514,13 +547,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -529,13 +562,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -544,13 +577,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -559,13 +592,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -574,13 +607,13 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     },
@@ -589,13 +622,133 @@
         "targets": [
             {
                 "type": "img",
-                "pos": "left",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             },
             {
                 "type": "img",
-                "pos": "right",
-                "data": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_40.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_41.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+            },
+            {
+                "type": "img",
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_42.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+            },
+            {
+                "type": "img",
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_43.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+            },
+            {
+                "type": "img",
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_44.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+            },
+            {
+                "type": "img",
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_45.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+            },
+            {
+                "type": "img",
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_46.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+            }
+        ]
+    },
+    {
+        "slide": "slide_47.jpg",
+        "targets": [
+            {
+                "type": "img",
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+            },
+            {
+                "type": "img",
+                "hotspot": "right",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a"
             }
         ]
     }

@@ -15,9 +15,17 @@
                                 {{root}}assets/img/slides/small/{{ slide }} 640w
                             "
                         >
+                        <div class="citem__loops">
+                            {{#each loops}}
+                            <video class="{{ pos }}" poster="{{root}}assets/img/loopsandposters/{{ poster }}" muted loop >
+                                <source src="{{root}}assets/img/loopsandposters/{{ video }}" type="video/mp4">
+                                <source src="{{root}}assets/img/loopsandposters/medium/{{ video }}" type="video/mp4" media="all and (max-width: 1024px)">
+                            </video>
+                            {{/each}}
+                        </div>
                         <div class="citem__links">
                             {{#each targets}}
-                            <a href="{{ data }}" class="{{ pos }}"></a>
+                            <a href="{{ target }}" class="{{ hotspot }}"></a>
                             {{/each}}
                         </div>
                     </div>

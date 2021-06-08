@@ -67,7 +67,7 @@ document.addEventListener("DOMMouseScroll", detectTrackPad, false);
 // Pause all videos
 // document.querySelectorAll('video').forEach(vid => vid.pause());
 
-//Mobile videos autostart/pause
+//Videos autostart/pause
 $('video').bind('inview', function (event, visible, topOrBottomOrBoth) {
     if (visible == true) {
       this.play();
