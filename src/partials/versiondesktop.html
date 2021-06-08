@@ -7,7 +7,7 @@
             <div class="homecarousel slick-slider">
                 {{#each theslides}}
                 <div class="citemwrap">
-                    <div class="citem">
+                    <div class="citem" data-pagenum="{{ @index }}">
                         <img 
                             src="{{root}}assets/img/slides/medium{{ slide }}" alt="{{ slide }}"
                             srcset="
@@ -45,7 +45,11 @@
                 <use xlink:href="#icon-caret-right"></use>
             </svg>
         </button>
+        <div class="carouselstatus"></div>
     </div>
+    
+ 
+
 
     <div class="navcarousel">
         {{#each theslides}}

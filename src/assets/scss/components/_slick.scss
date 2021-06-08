@@ -4,36 +4,34 @@
     height: calc(100vh - 13rem)
 }
 .carouselstatus {
+    position: absolute;
+    left: 0;
+    top:50%;
+    margin-top:17%;
+    width:100%;
     padding:0 10%;
-    height: calc(5rem + .5vw);
-    // background-color: red;
-    // height: calc(30rem - 21vw);
-    // background-color: red;
-    margin:0;
-    font-size: calc(.75rem + .25vw);
-    line-height: 1.2;
+    text-align: center;
+    color:$darker-gray;
+
+    font-size: .875rem;
+    line-height: 1;
     text-shadow: 0 0 2rem rgba(#fff,.5);
-    font-weight: $fw-bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    font-style: italic;
+    font-family: $serif-font-family;
+    font-weight: $fw-regular;
     transition: all .4s linear;
     opacity: 1;
+
+    @media screen and (min-width: 110em) {
+        margin-top:330px;
+    }
+
     em {
 
         font-style: italic;
         font-family: $serif-font-family;
         font-weight: $fw-regular;
-        display: block;
-        margin-top:.333em;
         font-size: 93.75%;
-        &:after {
-            content:' —'
-        }
-        &:before {
-            content:'— '
-        }
     }
 
     &.willchange {

@@ -37,7 +37,7 @@
         position: relative;
         font-size: 0.875rem;
 
-        padding: 0.25em 0.875em 0.25em;
+        padding: 0.25em 0.875em 0.25em !important;
         //background-color: red;
         color: inherit;
         &:hover {
@@ -60,6 +60,11 @@
         //     display: block;
         //     opacity:.5;
         // }
+
+        .icon {
+            font-size:.875em;
+            transform: translateY(.125em);
+        }
     }
 
     .is-active {
@@ -78,7 +83,7 @@
             color: $primary-color;
             font-weight: $global-weight-medium;
             &:hover, &:focus {
-                text-decoration: underline;
+                color:inherit;
             }
         }
     }
