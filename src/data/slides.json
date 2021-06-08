@@ -10,7 +10,7 @@
             "vimeo": "https://vimeo.com/540645744",
             "title":"Lagmansgården School",
             "img":"02.jpg",
-            "class": "rightstretched"
+            "class": "rightinner"
         }
     ],
     [
@@ -18,26 +18,26 @@
             "title":"Nordic Museum Of Photographic Arts Seoul",
             "img":"nordic.jpg",
             "video":"nordic.mp4",
-            "class": "leftstretched"
+            "class": "leftstretched wide"
         },
         {
             "copy" : "https://via.placeholder.com/1200x800/ffffff", 
             "title":"European Medicines Agency",
             "img":"05.jpg",
-            "class": "rightstretched"
+            "class": "rightstretched narrow"
         }
     ],
     [
         {
             "title":"Anonymous Hotel Project",
             "img":"07.jpg",
-            "class": "rightinner"
+            "class": "leftinner"
         },
         {
             "copy" : "https://via.placeholder.com/1200x800/ffffff", 
             "title":"550 West Randolph",
             "img":"08.jpg",
-            "class": "leftstretched"
+            "class": "rightstretched"
         }
     ],
     [
@@ -120,12 +120,13 @@
         {
             "title":"citizenM Hotel",
             "img":"01.jpg",
-            "class":"rightinner"
+            "class":"rightinner wide"
         },
         {
+            "copy" : "https://via.placeholder.com/1200x800/ffffff",
             "title":"Lagmansgården School",
             "img":"02.jpg",
-            "class":"leftstretched"
+            "class":"leftstretched narrow"
         }
     ],
     [
