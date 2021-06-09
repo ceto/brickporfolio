@@ -67,6 +67,14 @@
 @import 'node_modules/slick-carousel/slick/slick.scss';
 @import 'node_modules/aos/src/sass/aos.scss';
 
+//@import 'node_modules/photoswipe/src/css/main.scss';
+// @import 'node_modules/photoswipe/src/css/default-skin/default-skin.scss';
+
+@import "components/photoswipemain";
+@import "components/photoswipe";
+
+
+
 @import 'global/base';
 @import 'global/typography';
 @import "components/components";

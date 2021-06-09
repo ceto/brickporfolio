@@ -5,12 +5,15 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
-                "type": "img",
+                "type": "loop",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "zaha_tower.mp4",
+                "caption": "Some custom caption goes here"
             }
         ],
         "loops": [
@@ -28,12 +31,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -41,14 +48,19 @@
         "slide": "slide_02.jpg",
         "targets": [
             {
-                "type": "img",
-                "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "type": "vimeo",
+                "hotspot": "right",
+                "target": "https://player.vimeo.com/video/540645744",
+                "vimeoembed": "<div id=\"vimeoembed-pl-quintessence\" class=\"responsive-embed vimeoembed\" style=\"padding-bottom:56.25%;\"><iframe src=\"https://player.vimeo.com/video/540645744?title=0&byline=0&portrait=0&muted=1&autopause=0&player_id=pl-quintessence&app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"Quintessence\"></iframe></div>",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
-                "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "hotspot": "left",
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -58,12 +70,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -73,12 +89,16 @@
             {
                 "type": "img",
                 "hotspot": "left wide",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right narrow",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -88,12 +108,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -103,12 +127,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -118,12 +146,16 @@
             {
                 "type": "img",
                 "hotspot": "left wide",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right narrow",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -133,12 +165,16 @@
             {
                 "type": "img",
                 "hotspot": "left narrow",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right narrow",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -148,12 +184,15 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
-                "type": "img",
+                "type": "loop",
                 "hotspot": "right narrow",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "citizen.mp4",
+                "caption": "Some custom caption goes here"
             }
         ],
         "loops": [
@@ -171,12 +210,15 @@
             {
                 "type": "img",
                 "hotspot": "left narrow",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
-                "type": "img",
+                "type": "loop",
                 "hotspot": "right wide",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "nordic.mp4",
+                "caption": "Some custom caption goes here"
             }
         ],
         "loops": [
@@ -194,12 +236,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -209,12 +255,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -224,12 +274,16 @@
             {
                 "type": "img",
                 "hotspot": "left narrow",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right wide",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ],
         "loops": [
@@ -248,12 +302,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -263,12 +321,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -278,12 +340,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -293,12 +359,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -308,12 +378,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -323,12 +397,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -338,12 +416,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -353,12 +435,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -368,12 +454,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -383,12 +473,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -398,12 +492,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -413,12 +511,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -428,12 +530,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -443,12 +549,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -458,12 +568,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -473,12 +587,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -488,12 +606,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -503,12 +625,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -518,12 +644,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -533,12 +663,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -548,12 +682,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -563,12 +701,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -578,12 +720,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -593,12 +739,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -608,12 +758,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -623,12 +777,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -638,12 +796,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -653,12 +815,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -668,12 +834,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -683,12 +853,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -698,12 +872,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -713,12 +891,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1600x999/5a5a5a"
+                "target": "https://via.placeholder.com/1600x999/5a5a5a",
+                "size": "1600x999",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -728,12 +910,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     },
@@ -743,12 +929,16 @@
             {
                 "type": "img",
                 "hotspot": "left",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             },
             {
                 "type": "img",
                 "hotspot": "right",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a"
+                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "size": "1200x800",
+                "caption": "Some custom caption goes here"
             }
         ]
     }

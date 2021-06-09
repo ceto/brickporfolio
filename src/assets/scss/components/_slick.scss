@@ -1,7 +1,7 @@
 .carouselwrap {
     position: relative;
     display: flex;
-    height: calc(100vh - 13rem)
+    height: calc(100vh - 10rem)
 }
 .carouselstatus {
     position: absolute;
@@ -23,7 +23,7 @@
     opacity: 1;
 
     @media screen and (min-width: 110em) {
-        margin-top:330px;
+        margin-top:18.5rem;
     }
 
     em {
@@ -78,7 +78,7 @@
     padding: .25vw 0;
 
     @include breakpoint(tablet) {
-        bottom: 4rem;
+        bottom: 3rem;
     }
 
     .slick-slide {
@@ -92,7 +92,8 @@
         outline: none;
     }
     img {
-        height: 5rem;
+        max-height: 5rem;
+        height: calc(1.5rem + 2vw);
         // min-height: 5rem;
         max-width: none;
         width: auto;
