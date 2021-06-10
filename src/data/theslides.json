@@ -279,9 +279,9 @@
                 "caption": "Some custom caption goes here"
             },
             {
-                "type": "img",
+                "type": "loop",
                 "hotspot": "right wide",
-                "target": "https://via.placeholder.com/1200x800/9a9a9a",
+                "target": "zaha.mp4",
                 "size": "1200x800",
                 "caption": "Some custom caption goes here"
             }

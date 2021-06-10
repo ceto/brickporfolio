@@ -208,6 +208,10 @@ $('.slick-arrow').on('click', function (e) {
 });
 
 
+$('.js-restartslideshow').on('click', function(e) {
+    $homecarousel.slick('slickGoTo', 0);
+})
+
 
 // $(document).ready(function(){
 //     alert('kész');
