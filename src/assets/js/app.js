@@ -85,7 +85,7 @@ $homecarousel
         //slick slider callback must be defined before creating slick object
         mouseWheel($homecarousel);
         var elSlide = $(slick.$slides[slick.slickGetOption('initialSlide')]);
-        $('.carouselstatus').html('page 1 of ' + slick.$slides.length);
+        $('.carouselstatus').html('pages 1-2 / ' + slick.$slides.length*2);
     })
     .on('beforeChange', function (event, slick, currentSlide, nextSlide) {
         slickIsChanging = true;
@@ -99,7 +99,7 @@ $homecarousel
         var matrix = $(elSlide).closest('.slick-track').css('transform').replace(/[^0-9\-.,]/g, '').split(',');
         var x = parseInt(matrix[12] || matrix[4]);
       
-        $('.carouselstatus').html('page ' + (currentSlide+1) + ' of ' + slick.$slides.length);
+        $('.carouselstatus').html('pages ' + (currentSlide*2+1) + '-' + (currentSlide*2+2) + ' / ' + slick.$slides.length*2);
         
         $('.carouselstatus').removeClass('willchange');
         
@@ -256,7 +256,7 @@ $('.js-restartslideshow').on('click', function(e) {
 
             // linkEl = figureEl.children[0]; // <a> element
             linkEl = griditemEl;
-            console.log(linkEl);
+            // console.log(linkEl);
 
 
             size = linkEl.getAttribute('data-size').split('x');
@@ -282,8 +282,8 @@ $('.js-restartslideshow').on('click', function(e) {
                     };
             }
 
-            caption = linkEl.getAttribute('data-caption');
-            item.title =' <h3>'+ caption + '</h3>';
+            // caption = linkEl.getAttribute('data-caption');
+            // item.title =' <h3>'+ caption + '</h3>';
 
 
             item.el = griditemEl; // save link to element for getThumbBoundsFn
@@ -315,9 +315,9 @@ $('.js-restartslideshow').on('click', function(e) {
             galleryUID: galleryElement.getAttribute('data-pswp-uid'),
 
             //closeEl:false,
-            //fullscreenEl: false,
+            fullscreenEl: false,
             zoomEl: false,
-            //shareEl: false,
+            shareEl: false,
             counterEl: false,
             //arrowEl: false,
 
@@ -329,12 +329,12 @@ $('.js-restartslideshow').on('click', function(e) {
             // {{image_url}}       - encoded image url
             // {{raw_image_url}}   - raw image url
 
-            shareButtons: [
-                {id:'facebook', label:'Share on Facebook', url:'https://www.facebook.com/sharer/sharer.php?u='+items[index].el.getAttribute('href') },
-                {id:'twitter', label:'Tweet', url:'https://twitter.com/intent/tweet?text=' + items[index].el.getAttribute('data-caption') + '&url='+items[index].el.getAttribute('href') },
-                {id:'pinterest', label:'Pin it', url:'http://www.pinterest.com/pin/create/button/?url='+items[index].el.getAttribute('href')+'&media={{image_url}}&description=' + items[index].el.getAttribute('data-caption') },
-                {id:'download', label:'Download image', url:'{{raw_image_url}}', download:true}
-            ],
+            // shareButtons: [
+            //     {id:'facebook', label:'Share on Facebook', url:'https://www.facebook.com/sharer/sharer.php?u='+items[index].el.getAttribute('href') },
+            //     {id:'twitter', label:'Tweet', url:'https://twitter.com/intent/tweet?text=' + items[index].el.getAttribute('data-caption') + '&url='+items[index].el.getAttribute('href') },
+            //     {id:'pinterest', label:'Pin it', url:'http://www.pinterest.com/pin/create/button/?url='+items[index].el.getAttribute('href')+'&media={{image_url}}&description=' + items[index].el.getAttribute('data-caption') },
+            //     {id:'download', label:'Download image', url:'{{raw_image_url}}', download:true}
+            // ],
 
 
 

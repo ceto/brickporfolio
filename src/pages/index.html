@@ -1,4 +1,4 @@
-<div class="paceshow">
+<div class="aaapaceshow">
     <div class="carouselwrap">
         <button type="button" class="slick-arrow slick-prev"><svg class="icon">
                 <use xlink:href="#icon-caret-left"></use>
@@ -9,17 +9,14 @@
                 <div class="citemwrap">
                     <div class="citem" data-pagenum="{{ @index }}">
                         <img 
-                            src="{{root}}assets/img/slides/medium{{ slide }}" alt="{{ slide }}"
-                            srcset="
-                                {{root}}assets/img/slides/{{ slide }} 3307w,
-                                {{root}}assets/img/slides/small/{{ slide }} 640w
-                            "
+                            src="{{root}}assets/img/slides/{{ slide }}"
+                            srcset="{{root}}assets/img/slides/fullsize/{{ slide }} 3307w"
                         >
                         <div class="citem__loops">
                             {{#each loops}}
-                            <video class="{{ pos }}" poster="{{root}}assets/img/loopsandposters/{{ poster }}" muted loop >
-                                <source src="{{root}}assets/img/loopsandposters/{{ video }}" type="video/mp4">
-                                <source src="{{root}}assets/img/loopsandposters/medium/{{ video }}" type="video/mp4" media="all and (max-width: 1024px)">
+                            <video class="{{ pos }}" poster="{{root}}assets/img/media/{{ poster }}" muted loop >
+                                <source src="{{root}}assets/img/media/{{ video }}" type="video/mp4">
+                                <source src="{{root}}assets/img/media/medium/{{ video }}" type="video/mp4" media="all and (max-width: 1024px)">
                             </video>
                             {{/each}}
                         </div>
@@ -29,9 +26,8 @@
                                     <a 
                                         data-type="{{ type }}"
                                         data-size="{{ size }}"
-                                        data-loopvideo="<video class='cvidi' autoplay muted loop><source src='{{root}}assets/img/loopsandposters/{{ target }}' type='video/mp4'></video>"
-                                        href="{{root}}assets/img/loopsandposters/{{ target }}"
-                                        data-caption="{{ caption }}"
+                                        data-loopvideo="<video class='cvidi' autoplay muted loop><source src='{{root}}assets/img/media/{{ target }}' type='video/mp4'></video>"
+                                        href="{{root}}assets/img/media/{{ target }}"
                                         class="{{ hotspot }}">
                                     </a>
                                 {{/ifequal}}
@@ -40,25 +36,24 @@
                                     data-size="{{ size }}"
                                     data-vimeoembed="{{ vimeoembed }}"
                                     href="{{ target }}"
-                                    data-caption="{{ caption }}"
                                     class="{{ hotspot }}">
                                 </a>
                                 {{/ifequal}}
                                 {{#ifequal type 'img'}}
-                                    <a data-type="{{ type }}" data-size="{{ size }}" href="{{ target }}" data-caption="{{ caption }}" class="{{ hotspot }}"></a>
+                                    <a data-type="{{ type }}" data-size="{{ size }}" href="{{root}}assets/img/media/{{ target }}" class="{{ hotspot }}"></a>
                                 {{/ifequal}}
                             {{/each}}
                         </div>
                     </div>
                 </div>
                 {{/each}}
-                <div class="citemwrap">
+                <!-- <div class="citemwrap">
                     <div class="citem">
                         <div>
                             <a class="desktopportfoliojump" href="https://brickvisual.com/portfolio/">+ more works</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <button type="button" class="slick-arrow slick-next">
