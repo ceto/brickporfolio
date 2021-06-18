@@ -1,4 +1,4 @@
-<div class="aaapaceshow">
+<div class="ccwrap">
     <div class="carouselwrap">
         <button type="button" class="slick-arrow slick-prev"><svg class="icon">
                 <use xlink:href="#icon-caret-left"></use>
@@ -62,20 +62,22 @@
             </svg>
         </button>
         <div class="carouselstatus"></div>
+        <div class="navcarousel">
+            {{#each theslides}}
+            <div>
+                <figure>
+                    <img src="{{root}}assets/img/slides/thumbs/{{ slide }}">
+                </figure>
+            </div>
+            {{/each}}
+            <!-- <div>
+                <figure>
+                    <img width="1000" height="1000" src="{{root}}assets/img/more.svg" alt="">
+                </figure>
+            </div> -->
+        </div>
     </div>
     
-    <div class="navcarousel">
-        {{#each theslides}}
-        <div>
-            <figure>
-                <img src="{{root}}assets/img/slides/thumbs/{{ slide }}">
-            </figure>
-        </div>
-        {{/each}}
-        <!-- <div>
-            <figure>
-                <img width="1000" height="1000" src="{{root}}assets/img/more.svg" alt="">
-            </figure>
-        </div> -->
-    </div>
+
 </div>
+

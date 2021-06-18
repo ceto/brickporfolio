@@ -17,6 +17,8 @@ import autoprefixer  from 'autoprefixer';
 
 import ghpages  from 'gh-pages';
 
+import inlineSvg  from 'postcss-inline-svg';
+
 var rename = require("gulp-rename");
 var svgstore = require("gulp-svgstore");
 var svgmin = require("gulp-svgmin");
@@ -125,6 +127,11 @@ function styleGuide(done) {
 function sass() {
 
   const postCssPlugins = [
+    
+    inlineSvg({
+        paths: ['src/assets/icons/']
+    }),
+    
     // Autoprefixer
     autoprefixer(),
 

@@ -314,7 +314,7 @@ $('.js-restartslideshow').on('click', function(e) {
 
             galleryUID: galleryElement.getAttribute('data-pswp-uid'),
 
-            //closeEl:false,
+            closeEl:false,
             fullscreenEl: false,
             zoomEl: false,
             shareEl: false,

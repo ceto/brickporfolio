@@ -26,9 +26,10 @@ $pswp__include-minimal-style: true !default;
 	display: none;
 	position:absolute;
 	width: 100%;
-	height: 100%;
+	height: calc(100% - #{2.875rem + 2.5666rem});
 	left:0;
-	top:0;
+	top:2.875rem;
+    bottom:2.5666rem;
 	overflow: hidden;
 	-ms-touch-action: none;
 	touch-action: none;
@@ -185,8 +186,8 @@ $pswp__include-minimal-style: true !default;
 	height: auto;
 	top: 0;
     left: 0;
-    border:.5rem solid #fff;
-    box-shadow: 0 0 4px 0 $light-gray;
+    // border:.5rem solid #fff;
+    box-shadow:  0 0 0 .5rem #fff, 0 0 1rem 0 rgba(#000,.125)  ;
 }
 
 /*
