@@ -5,7 +5,7 @@
             </svg></button>
         <div class="grid-container stretched">
             <div class="homecarousel slick-slider">
-                {{#each theslides}}
+                {{#each portfolioslides}}
                 <div class="citemwrap">
                     <div class="citem" data-pagenum="{{ @index }}">
                         <img 
@@ -63,7 +63,7 @@
         </button>
         <div class="carouselstatus"></div>
         <div class="navcarousel">
-            {{#each theslides}}
+            {{#each portfolioslides}}
             <div>
                 <figure>
                     <img src="{{root}}assets/img/slides/thumbs/{{ slide }}">
