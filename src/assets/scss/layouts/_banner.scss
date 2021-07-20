@@ -4,6 +4,7 @@
     //background-color: $body-background;
     z-index: 5;
     position: relative;
+    
     .page-has-glass-banner & {
         position: absolute;
         left:0;
@@ -28,6 +29,10 @@
 .banner__top {
     border-bottom:1px solid $medium-gray;
     transition: top .4s ease-in;
+}
+
+.banner__toprow {
+    min-height: 5rem;
 }
 
 .banner__top.is-stuck{
