@@ -1,6 +1,6 @@
 [
     {
-         "slide": "portfolio_2021_00.png",
+         "slide": "Portfolio_2021_00.png",
          "preload": "true",
          "targets": [             
              {
@@ -12,7 +12,7 @@
          ]
      },    
      {
-         "slide": "portfolio_2021_01.jpg",
+         "slide": "Portfolio_2021_01.jpg",
          "preload": "true",
          "targets": [
              {
@@ -30,7 +30,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_02.jpg",
+         "slide": "Portfolio_2021_02.jpg",
          "preload": "true",
          "targets": [
              {
@@ -54,7 +54,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_03.jpg",
+         "slide": "Portfolio_2021_03.jpg",
          "preload": "true",
          "targets": [
              {
@@ -72,7 +72,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_04.jpg",
+         "slide": "Portfolio_2021_04.jpg",
          "targets": [
              {
                  "type": "img",
@@ -89,7 +89,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_05.jpg",
+         "slide": "Portfolio_2021_05.jpg",
          "targets": [
              {
                  "type": "img",
@@ -106,7 +106,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_06.jpg",
+         "slide": "Portfolio_2021_06.jpg",
          "targets": [
              {
                  "type": "img",
@@ -123,7 +123,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_07.jpg",
+         "slide": "Portfolio_2021_07.jpg",
          "targets": [
              {
                  "type": "img",
@@ -140,7 +140,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_08.jpg",
+         "slide": "Portfolio_2021_08.jpg",
          "targets": [
              {
                  "type": "img",
@@ -157,7 +157,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_09.jpg",
+         "slide": "Portfolio_2021_09.jpg",
          "targets": [
              {
                  "type": "img",
@@ -174,7 +174,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_10.jpg",
+         "slide": "Portfolio_2021_10.jpg",
          "targets": [
              {
                  "type": "img",
@@ -191,7 +191,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_11.jpg",
+         "slide": "Portfolio_2021_11.jpg",
          "targets": [
              {
                  "type": "loop",
@@ -219,7 +219,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_12.jpg",
+         "slide": "Portfolio_2021_12.jpg",
          "targets": [
              {
                  "type": "img",
@@ -242,7 +242,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_13.jpg",
+         "slide": "Portfolio_2021_13.jpg",
          "targets": [
              {
                  "type": "img",
@@ -266,7 +266,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_14.jpg",
+         "slide": "Portfolio_2021_14.jpg",
          "targets": [
              {
                  "type": "img",
@@ -283,7 +283,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_15.jpg",
+         "slide": "Portfolio_2021_15.jpg",
          "targets": [
              {
                  "type": "img",
@@ -300,7 +300,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_16.jpg",
+         "slide": "Portfolio_2021_16.jpg",
          "targets": [
              {
                  "type": "img",
@@ -317,7 +317,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_17.jpg",
+         "slide": "Portfolio_2021_17.jpg",
          "targets": [
              {
                  "type": "loop",
@@ -341,7 +341,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_18.jpg",
+         "slide": "Portfolio_2021_18.jpg",
          "targets": [
              {
                  "type": "img",
@@ -358,7 +358,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_19.jpg",
+         "slide": "Portfolio_2021_19.jpg",
          "targets": [
              {
                  "type": "img",
@@ -375,7 +375,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_20.jpg",
+         "slide": "Portfolio_2021_20.jpg",
          "targets": [
              {
                  "type": "img",
@@ -392,7 +392,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_21.jpg",
+         "slide": "Portfolio_2021_21.jpg",
          "targets": [
              {
                  "type": "img",
@@ -416,7 +416,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_22.jpg",
+         "slide": "Portfolio_2021_22.jpg",
          "targets": [
              {
                  "type": "img",
@@ -433,7 +433,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_23.jpg",
+         "slide": "Portfolio_2021_23.jpg",
          "targets": [
              {
                  "type": "img",
@@ -450,7 +450,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_24.jpg",
+         "slide": "Portfolio_2021_24.jpg",
          "targets": [
              {
                  "type": "img",
@@ -467,7 +467,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_25.jpg",
+         "slide": "Portfolio_2021_25.jpg",
          "targets": [
              {
                  "type": "img",
@@ -484,7 +484,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_26.jpg",
+         "slide": "Portfolio_2021_26.jpg",
          "targets": [
              {
                  "type": "img",
@@ -501,7 +501,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_27.jpg",
+         "slide": "Portfolio_2021_27.jpg",
          "targets": [
              {
                  "type": "img",
@@ -518,7 +518,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_28.jpg",
+         "slide": "Portfolio_2021_28.jpg",
          "targets": [
              {
                  "type": "img",
@@ -535,7 +535,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_29.jpg",
+         "slide": "Portfolio_2021_29.jpg",
          "targets": [
              {
                  "type": "img",
@@ -552,7 +552,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_30.jpg",
+         "slide": "Portfolio_2021_30.jpg",
          "targets": [
              {
                  "type": "img",
@@ -569,7 +569,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_31.jpg",
+         "slide": "Portfolio_2021_31.jpg",
          "targets": [
              {
                  "type": "img",
@@ -586,7 +586,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_32.jpg",
+         "slide": "Portfolio_2021_32.jpg",
          "targets": [
              {
                  "type": "img",
@@ -603,7 +603,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_33.jpg",
+         "slide": "Portfolio_2021_33.jpg",
          "targets": [
              {
                  "type": "img",
@@ -620,7 +620,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_34.jpg",
+         "slide": "Portfolio_2021_34.jpg",
          "targets": [
              {
                  "type": "img",
@@ -637,7 +637,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_35.jpg",
+         "slide": "Portfolio_2021_35.jpg",
          "targets": [
              {
                  "type": "img",
@@ -654,7 +654,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_36.jpg",
+         "slide": "Portfolio_2021_36.jpg",
          "targets": [
              {
                  "type": "img",
@@ -671,7 +671,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_37.jpg",
+         "slide": "Portfolio_2021_37.jpg",
          "targets": [
              {
                  "type": "img",
@@ -688,7 +688,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_38.jpg",
+         "slide": "Portfolio_2021_38.jpg",
          "targets": [
              {
                  "type": "img",
@@ -705,7 +705,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_39.jpg",
+         "slide": "Portfolio_2021_39.jpg",
          "targets": [
              {
                  "type": "img",
@@ -722,7 +722,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_40.jpg",
+         "slide": "Portfolio_2021_40.jpg",
          "targets": [
              {
                  "type": "img",
@@ -739,7 +739,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_41.jpg",
+         "slide": "Portfolio_2021_41.jpg",
          "targets": [
              {
                  "type": "img",
@@ -756,7 +756,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_42.jpg",
+         "slide": "Portfolio_2021_42.jpg",
          "targets": [
              {
                  "type": "img",
@@ -773,7 +773,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_43.jpg",
+         "slide": "Portfolio_2021_43.jpg",
          "targets": [
              {
                  "type": "img",
@@ -790,7 +790,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_44.jpg",
+         "slide": "Portfolio_2021_44.jpg",
          "targets": [
              {
                  "type": "img",
@@ -807,7 +807,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_45.jpg",
+         "slide": "Portfolio_2021_45.jpg",
          "targets": [
              {
                  "type": "img",
@@ -824,7 +824,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_46.jpg",
+         "slide": "Portfolio_2021_46.jpg",
          "targets": [
              {
                  "type": "img",
@@ -841,7 +841,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_47.jpg",
+         "slide": "Portfolio_2021_47.jpg",
          "targets": [
              {
                  "type": "img",
@@ -858,7 +858,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_48.jpg",
+         "slide": "Portfolio_2021_48.jpg",
          "targets": [
              {
                  "type": "img",
@@ -875,7 +875,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_49.jpg",
+         "slide": "Portfolio_2021_49.jpg",
          "targets": [
              {
                  "type": "img",
@@ -892,7 +892,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_50.jpg",
+         "slide": "Portfolio_2021_50.jpg",
          "targets": [
              {
                  "type": "img",
@@ -909,7 +909,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_51.jpg",
+         "slide": "Portfolio_2021_51.jpg",
          "targets": [
              {
                  "type": "img",
@@ -926,7 +926,7 @@
          ]
      },
      {
-         "slide": "portfolio_2021_52.png",
+         "slide": "Portfolio_2021_52.png",
          "targets": [
              {
                  "type": "img",
