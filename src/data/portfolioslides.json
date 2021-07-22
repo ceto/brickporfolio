@@ -1,893 +1,941 @@
 [
     {
-        "slide": "portfolio_2021_01.jpg",
-        "preload": "true",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_01.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_02.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_02.jpg",
-        "preload": "true",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_03.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "loop",
-                "hotspot": "right",
-                "target": "zaha_tower.mp4"
-            }
-        ],
-        "loops": [
-            {
-                "video": "zaha_tower.mp4",
-                "poster": "zaha_tower.jpg",
-                "pos": "right hasmargin"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_03.jpg",
-        "preload": "true",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_05.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_06.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_04.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left wide",
-                "target": "portfolio_2021_single_07.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right narrow",
-                "target": "portfolio_2021_single_08.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_05.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_09.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_10.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_06.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_11.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_12.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_07.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left wide",
-                "target": "portfolio_2021_single_13.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right narrow",
-                "target": "portfolio_2021_single_14.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_08.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left narrow",
-                "target": "portfolio_2021_single_15.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right narrow",
-                "target": "portfolio_2021_single_16.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_09.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_17.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_18.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_10.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_19.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_20.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_11.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_21.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "loop",
-                "hotspot": "right narrow",
-                "target": "citizen.mp4"
-            }
-        ],
-        "loops": [
-            {
-                "video": "citizen.mp4",
-                "poster": "citizen.jpg",
-                "pos": "right hasmargin"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_12.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left narrow",
-                "target": "portfolio_2021_single_23.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "loop",
-                "hotspot": "right wide",
-                "target": "nordic.mp4"
-            }
-        ],
-        "loops": [
-            {
-                "video": "nordic.mp4",
-                "poster": "nordic.jpg",
-                "pos": "right"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_13.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_25.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_26.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_14.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_27.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_28.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_15.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_29.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_30.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_16.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_31.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_32.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_17.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_33.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_34.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_18.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_35.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_36.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_19.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_37.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_38.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_20.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_39.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_40.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_21.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_41.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_42.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_22.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_43.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_44.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_23.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_45.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_46.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_24.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_47.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_48.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_25.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_49.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_50.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_26.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_51.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_52.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_27.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_53.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_54.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_28.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_55.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_56.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_29.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_57.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_58.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_30.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_59.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_60.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_31.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_61.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_62.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_32.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_63.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_64.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_33.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_65.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_66.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_34.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_67.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_68.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_35.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_69.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_70.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_36.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_71.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_72.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_37.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_73.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_74.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_38.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_75.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_76.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_39.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_77.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_78.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_40.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_79.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_80.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_41.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_81.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_82.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_42.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_83.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_84.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_43.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_85.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_86.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_44.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_87.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_88.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_45.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_89.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_90.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_46.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_91.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_92.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_47.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_93.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_94.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_48.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_95.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_96.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_49.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_97.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_98.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_50.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_99.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_100.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    },
-    {
-        "slide": "portfolio_2021_51.jpg",
-        "targets": [
-            {
-                "type": "img",
-                "hotspot": "left",
-                "target": "portfolio_2021_single_101.jpg",
-                "size": "1654x1122"
-            },
-            {
-                "type": "img",
-                "hotspot": "right",
-                "target": "portfolio_2021_single_102.jpg",
-                "size": "1654x1122"
-            }
-        ]
-    }
-
+         "slide": "portfolio_2021_00.png",
+         "preload": "true",
+         "targets": [             
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_00.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },    
+     {
+         "slide": "portfolio_2021_01.jpg",
+         "preload": "true",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_01.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_02.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_02.jpg",
+         "preload": "true",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_03.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "loop",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_04.mp4"
+             }
+         ],
+         "loops": [
+             {
+                 "video": "portfolio_2021_single_04.mp4",
+                 "poster": "portfolio_2021_single_04_cover.jpg",
+                 "pos": "right hasmargin"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_03.jpg",
+         "preload": "true",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_05.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_06.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_04.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left wide",
+                 "target": "portfolio_2021_single_07.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_08.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_05.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_09.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_10.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_06.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_11.jpg",
+                 "size": "2332x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_12.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_07.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_13.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_14.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_08.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_15.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "vimeo",
+                 "hotspot": "right",
+                 "target": "https://vimeo.com/508370244",
+                 "vimeoembed": "<div id=\"vimeoembed-pl-08\" class=\"responsive-embed vimeoembed\" style=\"padding-bottom:56.25%;\"><iframe src=\"https://vimeo.com/508370244?title=0&byline=0&portrait=0&muted=1&autopause=0&player_id=pl-08&app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"08\"></iframe></div>"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_09.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_17.jpg",
+                 "size": "2697x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_18.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_10.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_19.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_20.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_11.jpg",
+         "targets": [
+             {
+                 "type": "loop",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_21.mp4",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "loop",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_22.mp4"
+             }
+         ],
+         "loops": [
+             {
+                 "video": "portfolio_2021_single_21.mp4",
+                 "poster": "portfolio_2021_single_21_cover.jpg",
+                 "pos": "left hasmargin"
+             },
+         {
+                 "video": "portfolio_2021_single_22.mp4",
+                 "poster": "portfolio_2021_single_22_cover.jpg",
+                 "pos": "right hasmargin"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_12.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left narrow",
+                 "target": "portfolio_2021_single_23.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "loop",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_24.mp4"
+             }
+         ],
+         "loops": [
+             {
+                 "video": "portfolio_2021_single_23.mp4",
+                 "poster": "portfolio_2021_single_23_cover.jpg",
+                 "pos": "right"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_13.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_25.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_26.jpg",
+         "size": "1654x1122"
+             }
+         ],
+         "loops": [
+             {
+                 "video": "portfolio_2021_single_26.mp4",
+                 "poster": "portfolio_2021_single_26.mp4_cover.jpg",
+                 "pos": "right"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_14.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_27.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_28.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_15.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_29.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "vimeo",
+                 "hotspot": "right",
+                 "target": "https://vimeo.com/508370244",
+                 "vimeoembed": "<div id=\"vimeoembed-pl-15\" class=\"responsive-embed vimeoembed\" style=\"padding-bottom:56.25%;\"><iframe src=\"https://vimeo.com/508370244?title=0&byline=0&portrait=0&muted=1&autopause=0&player_id=pl-15&app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"15\"></iframe></div>"         
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_16.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_31.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_32.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_17.jpg",
+         "targets": [
+             {
+                 "type": "loop",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_33.mp4",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_34.jpg",
+                 "size": "1654x1122"
+             }
+         ],
+         "loops": [
+             {
+                 "video": "portfolio_2021_single_33.mp4",
+                 "poster": "portfolio_2021_single_33_cover.jpg",
+                 "pos": "left"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_18.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_35.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_36.jpg",
+                 "size": "2279x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_19.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_37.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_38.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_20.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_39.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_40.jpg",
+                 "size": "2359x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_21.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_41.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "loop",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_42.mp4"
+              
+             }
+         ],
+     "loops": [
+             {
+                 "video": "portfolio_2021_single_42.mp4",
+                 "poster": "portfolio_2021_single_42_cover.jpg",
+                 "pos": "right"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_22.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_43.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_44.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_23.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_45.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_46.jpg",
+                 "size": "2054x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_24.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_47.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_48.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_25.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_49.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_50.jpg",
+                 "size": "2057x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_26.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_51.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_52.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_27.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_53.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_54.jpg",
+                 "size": "2092x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_28.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_55.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_56.jpg",
+                 "size": "2050x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_29.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_57.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_58.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_30.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_59.jpg",
+                 "size": "2805x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_60.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_31.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_61.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_62.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_32.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_63.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_64.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_33.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_65.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_66.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_34.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_67.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_68.jpg",
+                 "size": "2006x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_35.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_69.jpg",
+                 "size": "1994x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_70.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_36.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_71.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_72.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_37.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_73.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_74.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_38.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_75.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_76.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_39.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_77.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_78.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_40.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_79.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_80.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_41.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_81.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_82.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_42.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_83.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_84.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_43.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_85.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_86.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_44.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_87.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_88.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_45.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_89.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "vimeo",
+                 "hotspot": "right",
+                 "target": "https://vimeo.com/571361096",
+                 "vimeoembed": "<div id=\"vimeoembed-pl-45\" class=\"responsive-embed vimeoembed\" style=\"padding-bottom:56.25%;\"><iframe src=\"https://vimeo.com/571361096?title=0&byline=0&portrait=0&muted=1&autopause=0&player_id=pl-45&app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"45\"></iframe></div>"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_46.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_91.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_92.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_47.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_93.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_94.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_48.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_95.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_96.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_49.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_97.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_98.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_50.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_99.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_100.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_51.jpg",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_101.jpg",
+                 "size": "1654x1122"
+             },
+             {
+                 "type": "img",
+                 "hotspot": "right",
+                 "target": "portfolio_2021_single_102.jpg",
+                 "size": "1654x1122"
+             }
+         ]
+     },
+     {
+         "slide": "portfolio_2021_52.png",
+         "targets": [
+             {
+                 "type": "img",
+                 "hotspot": "left",
+                 "target": "portfolio_2021_single_103.jpg",
+                 "size": "1654x1122"
+             }
+             
+         ]
+     }
+ 
 ]
-
-

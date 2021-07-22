@@ -96,7 +96,7 @@
         &.cvidi {
             width: auto !important;
             // height: auto !important;
-            max-height: calc(100vh - 6.666rem);
+            max-height: calc(100vh - 12rem);
             body.single & {
                 max-height: calc(100vh - 10.5rem);
             }
