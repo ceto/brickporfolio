@@ -110,13 +110,13 @@
          "targets": [
              {
                  "type": "img",
-                 "hotspot": "left",
+                 "hotspot": "left wide",
                  "target": "portfolio_2021_single_11.jpg",
                  "size": "2332x1122"
              },
              {
                  "type": "img",
-                 "hotspot": "right",
+                 "hotspot": "right narrow",
                  "target": "portfolio_2021_single_12.jpg",
                  "size": "1654x1122"
              }
@@ -161,13 +161,13 @@
          "targets": [
              {
                  "type": "img",
-                 "hotspot": "left",
+                 "hotspot": "left wide",
                  "target": "portfolio_2021_single_17.jpg",
                  "size": "2697x1122"
              },
              {
                  "type": "img",
-                 "hotspot": "right",
+                 "hotspot": "right narrow",
                  "target": "portfolio_2021_single_18.jpg",
                  "size": "1654x1122"
              }
@@ -229,14 +229,14 @@
              },
              {
                  "type": "loop",
-                 "hotspot": "right",
+                 "hotspot": "right wide",
                  "target": "portfolio_2021_single_24.mp4"
              }
          ],
          "loops": [
              {
-                 "video": "portfolio_2021_single_23.mp4",
-                 "poster": "portfolio_2021_single_23_cover.jpg",
+                 "video": "portfolio_2021_single_24.mp4",
+                 "poster": "portfolio_2021_single_24_cover.jpg",
                  "pos": "right"
              }
          ]
@@ -251,15 +251,15 @@
                  "size": "1654x1122"
              },
              {
-                 "type": "img",
+                 "type": "loop",
                  "hotspot": "right",
-                 "target": "portfolio_2021_single_26.jpg",
-         "size": "1654x1122"
+                 "target": "portfolio_2021_single_26.mp4.mp4",
+                 "size": "1080x1080"
              }
          ],
          "loops": [
              {
-                 "video": "portfolio_2021_single_26.mp4",
+                 "video": "portfolio_2021_single_26.mp4.mp4",
                  "poster": "portfolio_2021_single_26.mp4_cover.jpg",
                  "pos": "right"
              }
@@ -287,13 +287,13 @@
          "targets": [
              {
                  "type": "img",
-                 "hotspot": "left",
+                 "hotspot": "left narrow",
                  "target": "portfolio_2021_single_29.jpg",
                  "size": "1654x1122"
              },
              {
                  "type": "vimeo",
-                 "hotspot": "right",
+                 "hotspot": "right wide",
                  "target": "https://player.vimeo.com/video/508370244",
                  "vimeoembed": "<div id=\"vimeoembed-pl-15\" class=\"responsive-embed vimeoembed\" style=\"padding-bottom:56.25%;\"><iframe src=\"https://player.vimeo.com/video/508370244?title=0&byline=0&portrait=0&muted=1&autopause=0&player_id=pl-15&app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"15\"></iframe></div>"         
              }
@@ -321,21 +321,21 @@
          "targets": [
              {
                  "type": "loop",
-                 "hotspot": "left",
-                 "target": "portfolio_2021_single_33.mp4",
+                 "hotspot": "left wide",
+                 "target": "portfolio_2021_single_33.mp4.mp4",
                  "size": "1654x1122"
              },
              {
                  "type": "img",
-                 "hotspot": "right",
+                 "hotspot": "right narrow",
                  "target": "portfolio_2021_single_34.jpg",
                  "size": "1654x1122"
              }
          ],
          "loops": [
              {
-                 "video": "portfolio_2021_single_33.mp4",
-                 "poster": "portfolio_2021_single_33_cover.jpg",
+                 "video": "portfolio_2021_single_33.mp4.mp4",
+                 "poster": "portfolio_2021_single_33_cover.jpg.jpg",
                  "pos": "left"
              }
          ]
@@ -345,13 +345,13 @@
          "targets": [
              {
                  "type": "img",
-                 "hotspot": "left",
+                 "hotspot": "left narrow",
                  "target": "portfolio_2021_single_35.jpg",
                  "size": "1654x1122"
              },
              {
                  "type": "img",
-                 "hotspot": "right",
+                 "hotspot": "right wide",
                  "target": "portfolio_2021_single_36.jpg",
                  "size": "2279x1122"
              }
@@ -379,13 +379,13 @@
          "targets": [
              {
                  "type": "img",
-                 "hotspot": "left",
+                 "hotspot": "left narrow",
                  "target": "portfolio_2021_single_39.jpg",
                  "size": "1654x1122"
              },
              {
                  "type": "img",
-                 "hotspot": "right",
+                 "hotspot": "right wide",
                  "target": "portfolio_2021_single_40.jpg",
                  "size": "2359x1122"
              }
@@ -556,13 +556,13 @@
          "targets": [
              {
                  "type": "img",
-                 "hotspot": "left",
+                 "hotspot": "left wide",
                  "target": "portfolio_2021_single_59.jpg",
                  "size": "2805x1122"
              },
              {
                  "type": "img",
-                 "hotspot": "right",
+                 "hotspot": "right narrow",
                  "target": "portfolio_2021_single_60.jpg",
                  "size": "1654x1122"
              }
@@ -811,13 +811,13 @@
          "targets": [
              {
                  "type": "img",
-                 "hotspot": "left",
+                 "hotspot": "left narrow",
                  "target": "portfolio_2021_single_89.jpg",
                  "size": "1654x1122"
              },
              {
                  "type": "vimeo",
-                 "hotspot": "right",
+                 "hotspot": "right wide",
                  "target": "https://player.vimeo.com/video/571361096",
                  "vimeoembed": "<div id=\"vimeoembed-pl-45\" class=\"responsive-embed vimeoembed\" style=\"padding-bottom:56.25%;\"><iframe src=\"https://player.vimeo.com/video/571361096?title=0&byline=0&portrait=0&muted=1&autopause=0&player_id=pl-45&app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"45\"></iframe></div>"
              }
