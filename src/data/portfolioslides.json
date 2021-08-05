@@ -1,6 +1,6 @@
 [
     {
-         "slide": "Portfolio_2021_00.png",
+         "slide": "Portfolio_2021_00_together.jpg",
          "preload": "true",
          "targets": [             
              {
@@ -15,12 +15,6 @@
          "slide": "Portfolio_2021_01.jpg",
          "preload": "true",
          "targets": [
-             {
-                 "type": "img",
-                 "hotspot": "left",
-                 "target": "portfolio_2021_single_01.jpg",
-                 "size": "1654x1122"
-             },
              {
                  "type": "img",
                  "hotspot": "right",
@@ -260,8 +254,8 @@
          "loops": [
              {
                  "video": "portfolio_2021_single_26.mp4.mp4",
-                 "poster": "portfolio_2021_single_26.mp4_cover.jpg",
-                 "pos": "right"
+                 "poster": "portfolio_2021_single_26_cover.jpg",
+                 "pos": "right hasmargin"
              }
          ]
      },
@@ -924,18 +918,5 @@
                  "size": "1654x1122"
              }
          ]
-     },
-     {
-         "slide": "Portfolio_2021_52.png",
-         "targets": [
-             {
-                 "type": "img",
-                 "hotspot": "left",
-                 "target": "portfolio_2021_single_103.jpg",
-                 "size": "1654x1122"
-             }
-             
-         ]
      }
- 
 ]
