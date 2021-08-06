@@ -3,12 +3,6 @@
          "slide": "Portfolio_2021_00_together.jpg",
          "preload": "true",
          "targets": [             
-             {
-                 "type": "img",
-                 "hotspot": "right",
-                 "target": "portfolio_2021_single_00.jpg",
-                 "size": "1654x1122"
-             }
          ]
      },    
      {
