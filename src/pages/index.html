@@ -15,8 +15,8 @@
                         <div class="citem__loops">
                             {{#each loops}}
                             <video class="{{ pos }}" poster="{{root}}assets/img/media/{{ poster }}" muted loop >
-                                <source src="{{root}}assets/img/media/{{ video }}" type="video/mp4">
-                                <source src="{{root}}assets/img/media/medium/{{ video }}" type="video/mp4" media="all and (max-width: 1024px)">
+                                <source src="{{root}}assets/img/media/medium/{{ video }}" type="video/mp4" media="screen and (max-resolution: 1.5dppx)">
+                                <source src="{{root}}assets/img/media/{{ video }}" type="video/mp4" media="screen and (min-resolution: 1.5dppx)">
                             </video>
                             {{/each}}
                         </div>

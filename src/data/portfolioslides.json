@@ -241,13 +241,13 @@
              {
                  "type": "loop",
                  "hotspot": "right",
-                 "target": "portfolio_2021_single_26.mp4.mp4",
+                 "target": "portfolio_2021_single_26.mp4",
                  "size": "1080x1080"
              }
          ],
          "loops": [
              {
-                 "video": "portfolio_2021_single_26.mp4.mp4",
+                 "video": "portfolio_2021_single_26.mp4",
                  "poster": "portfolio_2021_single_26_cover.jpg",
                  "pos": "right hasmargin"
              }
@@ -310,7 +310,7 @@
              {
                  "type": "loop",
                  "hotspot": "left wide",
-                 "target": "portfolio_2021_single_33.mp4.mp4",
+                 "target": "portfolio_2021_single_33.mp4",
                  "size": "1654x1122"
              },
              {
@@ -322,7 +322,7 @@
          ],
          "loops": [
              {
-                 "video": "portfolio_2021_single_33.mp4.mp4",
+                 "video": "portfolio_2021_single_33.mp4",
                  "poster": "portfolio_2021_single_33_cover.jpg.jpg",
                  "pos": "left"
              }
@@ -807,7 +807,7 @@
                  "type": "vimeo",
                  "hotspot": "right wide",
                  "target": "https://player.vimeo.com/video/571361096",
-                 "vimeoembed": "<div id=\"vimeoembed-pl-45\" class=\"responsive-embed vimeoembed\" style=\"padding-bottom:56.25%;\"><iframe src=\"https://player.vimeo.com/video/571361096?title=0&byline=0&portrait=0&muted=1&autopause=0&player_id=pl-45&app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"45\"></iframe></div>"
+                 "vimeoembed": "<div id=\"vimeoembed-pl-45\" class=\"responsive-embed vimeoembed\" style=\"padding-bottom:41.841%;\"><iframe src=\"https://player.vimeo.com/video/571361096?title=0&byline=0&portrait=0&muted=1&autopause=0&player_id=pl-45&app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"45\"></iframe></div>"
              }
          ]
      },
