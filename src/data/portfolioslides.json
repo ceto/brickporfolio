@@ -807,7 +807,7 @@
                  "type": "vimeo",
                  "hotspot": "right wide",
                  "target": "https://player.vimeo.com/video/571361096",
-                 "vimeoembed": "<div id=\"vimeoembed-pl-45\" class=\"responsive-embed vimeoembed\" style=\"padding-bottom:41.841%;\"><iframe src=\"https://player.vimeo.com/video/571361096?title=0&byline=0&portrait=0&muted=1&autopause=0&player_id=pl-45&app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"45\"></iframe></div>"
+                 "vimeoembed": "<div id=\"vimeoembed-pl-45\" class=\"responsive-embed vimeoembed\" style=\"padding-bottom:42.1875%;\"><iframe src=\"https://player.vimeo.com/video/571361096?title=0&byline=0&portrait=0&muted=1&autopause=0&player_id=pl-45&app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"45\"></iframe></div>"
              }
          ]
      },
