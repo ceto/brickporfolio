@@ -227,7 +227,7 @@ $('.js-restartslideshow').on('click', function(e) {
  ************************/
 
 
- var initPhotoSwipeFromWorksDOM = function(gallerySelector) {
+ var initPhotoSwipeFromSliderDOM = function(gallerySelector) {
 
     // parse slide data (url, title, size ...) from DOM elements
     // (children of gallerySelector)
@@ -237,6 +237,7 @@ $('.js-restartslideshow').on('click', function(e) {
             items = [],
             griditemEl,
             figureEl,
+            citemlinksEl,
             linkEl,
             size,
             caption,
@@ -251,9 +252,10 @@ $('.js-restartslideshow').on('click', function(e) {
             if(griditemEl.nodeType !== 1) {
                 continue;
             }
-            // articleEl = griditemEl.children[0];
-            // figureEl = articleEl.children[0].children[0];
 
+            citemlinksEl = griditemEl;
+            console.log(griditemEl);
+            
             // linkEl = figureEl.children[0]; // <a> element
             linkEl = griditemEl;
             // console.log(linkEl);
@@ -519,4 +521,18 @@ $('.js-restartslideshow').on('click', function(e) {
 };
 
 // execute above function
-initPhotoSwipeFromWorksDOM('.citem__links');
+initPhotoSwipeFromSliderDOM('.homecarousel');
+
+
+var pswpElement = document.querySelectorAll('.pswp')[0];
+// define options (if needed)
+var options = {
+    closeEl:false,
+    fullscreenEl: false,
+    zoomEl: false,
+    shareEl: false,
+    counterEl: false,
+};
+var jsgallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, theitems, options);
+jsgallery.init();
+
