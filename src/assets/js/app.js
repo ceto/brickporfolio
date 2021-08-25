@@ -70,19 +70,22 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
                 switch (itemtype) {
                     case 'loop':
                         item = {
-                            html: '<div class="wrapper wrapper--cvideo">' + $(this).attr('data-loopvideo') + '</div>'
+                            html: '<div class="wrapper wrapper--cvideo">' + $(this).attr('data-loopvideo') + '</div>',
+                            slideno: index
                         };
                         break;
                     case 'vimeo':
                         item = {
-                            html: '<div class="wrapper">' + $(this).attr('data-vimeoembed') + '</div>'
+                            html: '<div class="wrapper">' + $(this).attr('data-vimeoembed') + '</div>',
+                            slideno: index
                         };
                         break;
                     default:
                         item = {
                             src: $(this).attr('href'),
                             w: parseInt(size[0], 10),
-                            h: parseInt(size[1], 10)
+                            h: parseInt(size[1], 10),
+                            slideno: index
                         };
                 }
 
@@ -223,6 +226,25 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         // Pass data to PhotoSwipe and initialize it
         gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
         gallery.init();
+
+
+        gallery.listen('gettingData', function(index,item) {
+            $('.vimeoembed iframe').each( function(i,element) {
+                var jqueryPlayer = new Player($(element));
+                $(element).on('inview', function(event, isInView) {
+                    if (isInView) {
+                    //console.log('bejött: ' + $(element).attr('title'));
+                    jqueryPlayer.play();
+                    } else {
+                    //console.log('kiment: ' + $(element).attr('title'));
+                    jqueryPlayer.pause();
+                    }
+                });
+            });
+            console.log(item);
+            $homecarousel.slick('slickGoTo', item.slideno);
+        });
+
     };
 
     // loop through all gallery elements and bind events
