@@ -78,29 +78,3 @@
         </div>
     </div>
 </div>
-
-<script>
-    var theitems = [
-    {{#each portfolioslides}}
-            {{#each targets}}
-                {{#ifequal type 'loop'}}
-                    {
-                        html: '<div class="wrapper wrapper--cvideo"><video class="cvidi" autoplay muted loop><source src="{{root}}assets/img/media/{{ target }}" type="video/mp4"></video></div>'
-                    },
-                {{/ifequal}}
-                {{#ifequal type 'vimeo'}}
-                    {
-                        html: '<div class="wrapper">{{ safehtml vimeoembed }}</div>'
-                    },
-                {{/ifequal}}
-                {{#ifequal type 'img'}}
-                    {
-                        src: '{{root}}assets/img/media/{{ target }}',
-                        w: {{width size }},
-                        h: {{height size }}
-                    },
-                {{/ifequal}}
-            {{/each}}
-    {{/each}}
-    ]
-</script>
