@@ -228,7 +228,26 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         gallery.init();
 
 
-        gallery.listen('gettingData', function(index,item) {
+        // gallery.listen('gettingData', function(index,item) {
+        //     $('.vimeoembed iframe').each( function(i,element) {
+        //         var jqueryPlayer = new Player($(element));
+        //         $(element).on('inview', function(event, isInView) {
+        //             if (isInView) {
+        //             //console.log('bejött: ' + $(element).attr('title'));
+        //             jqueryPlayer.play();
+        //             } else {
+        //             //console.log('kiment: ' + $(element).attr('title'));
+        //             jqueryPlayer.pause();
+        //             }
+        //         });
+        //     });
+            
+        // });
+
+        gallery.listen('afterChange', function()  { 
+            // index - index of a slide that was loaded
+            // item - slide object
+            // console.log(gallery.currItem.slideno);
             $('.vimeoembed iframe').each( function(i,element) {
                 var jqueryPlayer = new Player($(element));
                 $(element).on('inview', function(event, isInView) {
@@ -241,8 +260,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
                     }
                 });
             });
-            console.log(item);
-            $homecarousel.slick('slickGoTo', item.slideno);
+            $homecarousel.slick('slickGoTo', gallery.currItem.slideno);
         });
 
     };
