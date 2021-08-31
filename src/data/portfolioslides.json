@@ -139,8 +139,8 @@
              {
                  "type": "vimeo",
                  "hotspot": "right",
-                 "target": "https://player.vimeo.com/video/508370244",
-                 "vimeoembed": "<div id=\"vimeoembed-pl-08\" class=\"responsive-embed vimeoembed\" style=\"padding-bottom:56.25%;\"><iframe src=\"https://player.vimeo.com/video/508370244?title=0&byline=0&portrait=0&muted=1&autopause=0&player_id=pl-08&app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"08\"></iframe></div>"
+                 "target": "https://player.vimeo.com/video/528940537",
+                 "vimeoembed": "<div id=\"vimeoembed-pl-08\" class=\"responsive-embed vimeoembed\" style=\"padding-bottom:56.25%;\"><iframe src=\"https://player.vimeo.com/video/528940537?title=0&byline=0&portrait=0&muted=1&autopause=0&player_id=pl-08&app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"08\"></iframe></div>"
              }
          ]
      },
